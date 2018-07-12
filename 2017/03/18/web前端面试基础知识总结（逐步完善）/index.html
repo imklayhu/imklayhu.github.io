@@ -1,0 +1,243 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Klay-Clam"><title>web前端面试基础知识总结（逐步完善） · Klay-Clam's Blog</title><meta name="description" content="HTML及其他：1. HTML行内元素：
+不必换行必须设置的项：
+
+word-break
+white-space  
+
+
+
+2. jQuery ajax ：
+传输的数据类型：xml、html、jsonp、json
+ajax的事件是： 
+
+ajaxComplete(callback) 
+ajaxErr"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"></head><body><div id="stage" class="container"><div class="row"><div id="side-bar" class="col-sm-3 col-xs-12 side-container invisible"><div class="vertical-text site-title"><h3 tabindex="-1" class="site-title-small"><a href="/" class="a-title">Typography</a></h3><h1 tabindex="-1" class="site-title-large"><a href="/" class="a-title">活版印字</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div id="site-nav" class="site-title-links"><ul><li><a href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/categories">Categories</a></li><li><a href="/tags">Tags</a></li><li class="soc"><a href="https://github.com/Klay-Clam" target="_blank" rel="noopener noreferrer"><i class="fa fa-github">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2018&nbsp;<a target="_blank" href="http://yoursite.com" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div id="main-container" class="col-sm-9 col-xs-12 main-container invisible"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>web前端面试基础知识总结（逐步完善）</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-03-18</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a href="/categories/javascript/" title="javascript" class="a-tag">javascript</a><span>&nbsp;</span></span></p><p class="post-abstract"><h2 id="HTML及其他："><a href="#HTML及其他：" class="headerlink" title="HTML及其他："></a>HTML及其他：</h2><h3 id="1-HTML行内元素："><a href="#1-HTML行内元素：" class="headerlink" title="1. HTML行内元素："></a>1. HTML行内元素：</h3><ul>
+<li>不必换行必须设置的项：<blockquote>
+<ol>
+<li>word-break</li>
+<li>white-space <a id="more"></a> 
+</li>
+</ol>
+</blockquote>
+<h3 id="2-jQuery-ajax-："><a href="#2-jQuery-ajax-：" class="headerlink" title="2. jQuery ajax ："></a>2. jQuery ajax ：</h3></li>
+<li>传输的数据类型：xml、html、jsonp、json</li>
+<li>ajax的事件是： <blockquote>
+<ol>
+<li>ajaxComplete(callback) </li>
+<li>ajaxError(callback) </li>
+<li>ajaxSend(callback) </li>
+<li>ajaxStart(callback) </li>
+<li>ajaxStop(callback) </li>
+<li>ajaxSuccess(callback)</li>
+</ol>
+</blockquote>
+</li>
+</ul>
+<h3 id="3-MVC："><a href="#3-MVC：" class="headerlink" title="3. MVC："></a>3. MVC：</h3><h3 id="4-iframe的使用场景"><a href="#4-iframe的使用场景" class="headerlink" title="4. iframe的使用场景"></a>4. iframe的使用场景</h3><ul>
+<li>与第三方域名下的页面共享cookie</li>
+<li>上传图片，避免当前页刷新</li>
+<li>左边固定右边自适应的布局</li>
+<li>资源加载<blockquote>
+<ul>
+<li>典型系统结构，左侧是功能树，右侧就是一些常见的table或者表单之类的。为了每一个功能，单独分离出来，采用iframe。</li>
+<li>ajax上传文件。</li>
+<li>加载别的网站内容，例如google广告，网站流量分析。</li>
+<li>在上传图片时，不用flash实现无刷新。</li>
+<li>跨域访问的时候可以用到iframe，使用iframe请求不同域名下的资源。</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<h3 id="5-Angular-中服务的说法："><a href="#5-Angular-中服务的说法：" class="headerlink" title="5. Angular 中服务的说法："></a>5. Angular 中服务的说法：</h3><ul>
+<li>避免全局对象污染</li>
+<li>能注入到其他组件</li>
+<li>避免代码分散到各处</li>
+</ul>
+<h3 id="6-canvas-："><a href="#6-canvas-：" class="headerlink" title="6. canvas ："></a>6. canvas ：</h3><ul>
+<li>canvas 不是作为代替Flash技术而出现的</li>
+</ul>
+<h3 id="7-Bootstrap-："><a href="#7-Bootstrap-：" class="headerlink" title="7. Bootstrap ："></a>7. Bootstrap ：</h3><ul>
+<li>Bootstrap 为屏幕、排版和链接设置了基本的<strong><em>全局样式</em></strong>：<ul>
+<li>移除了<code>body</code>的 <code>margin</code></li>
+<li>设置了 <code>body</code> 的背景颜色 <code>background-color: white;</code></li>
+<li>使用 <code>@baseFontFamily</code>、<code>@baseFontSize</code> 和<code>@baseLineHeight</code> 属性作为我们排版的基础</li>
+<li>通过 <code>@linkColor</code> 设置全局链接颜色，并且，当链接处于 <code>:hover</code> 状态时才会带有下划线</li>
+<li>Bootstrap定义的全局 <code>font-size</code> 是 <em>14px</em>，<code>line-height</code> 是 <em>1.428px</em>。这些样式应用到了 <code>&lt;body&gt;</code> 和所有的段落上。另外，对 <code>&lt;p&gt;</code> (段落)还定义了<em>1/2</em>行高(<strong>默认为10px</strong>)的底部外边距(<code>margin</code>)属性。</li>
+</ul>
+</li>
+<li>Bootstrap默认的栅格系统为_12_列 ，形成一个<em>940px</em>宽的容器，默认没有启用 响应式布局特性 。如果加入响应式布局CSS文件，栅格系统会自动根据可视窗口的宽度从<em>724px</em>到<em>1170px</em>进行动态调整。在可视窗口低于<em>767px</em>宽的情况下，列将不再固定并且会在垂直方向堆叠。</li>
+</ul>
+<h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h2><ul>
+<li>JavaScript 的数据类型：<strong><em>字符串、数字、布尔、数组、对象、Null、Undefined</em></strong></li>
+<li>最新的 ECMAScript 标准定义了 7 种数据类型:</li>
+</ul>
+<ul>
+<li>6种原始类型：<ul>
+<li>Boolewn</li>
+<li>Null</li>
+<li>Undefined</li>
+<li>Number</li>
+<li>String </li>
+<li>Symbol (ECMAScript 6 新定义)</li>
+</ul>
+</li>
+<li>Object</li>
+</ul>
+<ul>
+<li>JavaScript 的数据类型的另一种说法：<blockquote>
+<ol>
+<li>在 JavaScript 中有 5 种不同的数据类型：<br><strong><em>string 、number 、boolean 、object 、function</em></strong></li>
+<li>3 种对象类型：<br><strong><em>Object 、Date 、Array</em></strong></li>
+<li>2 个不包含任何值的数据类型：<br><strong><em>null 、undefined</em></strong></li>
+</ol>
+</blockquote>
+</li>
+<li>JavaScript 保留字：<strong><em>abstrsct</em></strong>、 <strong><em>goto</em></strong>、 <strong><em>return</em></strong></li>
+<li><strong>Number()</strong> 会将<em>null</em>,<em>empty</em>,_0_转化为 <strong>0</strong></li>
+<li><h3 id="JavaScript-RegExp-对象"><a href="#JavaScript-RegExp-对象" class="headerlink" title="JavaScript RegExp  对象"></a><strong><em>JavaScript RegExp</em></strong>  对象</h3><ul>
+<li>有 3 个方法：<code>test()、exec() 和 compile()</code>;</li>
+<li>test() 方法用来检测一个字符串是否匹配某个正则表达式，如果匹配成功，返回 true ，否则返回 false；</li>
+<li>exec() 方法用来检索字符串中与正则表达式匹配的值。exec() 方法返回一个数组，其中存放匹配的结果。如果未找到匹配的值，则返回 null；</li>
+<li>compile() 方法可以在脚本执行过程中编译正则表达式，也可以改变已有表达式。</li>
+</ul>
+</li>
+<li><h3 id="javascript-的比较运算符："><a href="#javascript-的比较运算符：" class="headerlink" title="javascript 的比较运算符："></a>javascript 的比较运算符：</h3><ul>
+<li><code>false == 0; //ture</code>,<code>false === 0;//false</code></li>
+<li><code>==</code> 会先转换数据类型再比较，<code>===</code> 不会转换数据类型，如果数据类型不一致则返回<code>false</code>，如果数据类型一致则再进行比较</li>
+<li><code>NaN === NaN;//false</code>,NaN 与任何值比较都是不相等的，与自己比较也是不相等的。</li>
+<li><code>null</code> 表示一个‘空’值，与 <code>‘ ’</code>和 <code>0</code> 都不是相等的，<code>‘ ’</code>表示一个空的字符串，<code>0</code>表示一个数字0</li>
+</ul>
+</li>
+<li><h3 id="javascript-数组："><a href="#javascript-数组：" class="headerlink" title="javascript 数组："></a>javascript 数组：</h3><ul>
+<li>顺序排列的集合，javascript数组的元素可以是任何的数据类型</li>
+<li><p>直接给数组的长度赋值会改变数组的长度</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>];</span><br><span class="line">alert(arr.length);<span class="comment">/*length == 3*/</span></span><br><span class="line">arr.length = <span class="number">5</span>;</span><br><span class="line">alert(arr);<span class="comment">//[1,2,3,undefined,undefined]</span></span><br><span class="line">arr.length = <span class="number">2</span>;</span><br><span class="line">arr; <span class="comment">// arr变为[1, 2]</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>indexOf();</code>返回指定元素的索引值<br><code>array.length;</code>返回数组的长度<br><code>push(),pop()</code>在数组的最后插入一个元素或删除元素的最后一个元素<br><code>unshift();</code>在树组的头部插入一个新的元素，<code>shift();</code>删除数组的第一个元素<br><code>sort();</code>会对当前的数组进行排序，默认是升序排序<br><code>reverse()</code>反转数组<br><code>splice();</code>替换指定下标的元素值；删除指定下标的值，在指定下标插入元素<br><code>concat();</code>合并两个数组，返回一个新的数组，不改变原来的数组。</p>
+</li>
+</ul>
+</li>
+<li><h3 id="javascript-的对象："><a href="#javascript-的对象：" class="headerlink" title="javascript 的对象："></a>javascript 的对象：</h3><ul>
+<li><p>是由一组无序的键值对组成的，键值是字符串类型，value可以是任何的数据类型</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 简单的一个对象的声明和初始化</span></span><br><span class="line">var newObject = &#123;</span><br><span class="line">    <span class="string">name :</span> <span class="string">'Klay'</span>,</span><br><span class="line">    <span class="string">age :</span> <span class="number">18</span>,</span><br><span class="line">    <span class="string">'married'</span>: <span class="string">'yes'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>key 成为 对象的属性：<code>object.key;</code></p>
+</li>
+<li>删除一个对象的属性：<code>delete newObject.name;delete newObject[&#39;married&#39;];</code>删除一个不存在的属性也不会报错。</li>
+<li><code>name in newObject;</code> 使用<code>in</code>判断一个属性是否包含在一个对象中。返回的是一个布尔值。<strong><em>注意：</em></strong><code>name in newObject;//true</code>,该表达式为真不代表newObject中一定含有name属性，有可能是newObject对象的<strong><em>原型链上继承</em></strong>来的。</li>
+<li><code>newObject.hasOwnProperty(&#39;name&#39;);</code> 使用这个方法可以判断一个属性是否是这个对象自己的，而不是从原型链上继承来的。该表达式返回一个布尔值。</li>
+</ul>
+</li>
+<li><h3 id="javascript-for循环："><a href="#javascript-for循环：" class="headerlink" title="javascript for循环："></a>javascript for循环：</h3><ul>
+<li>常用的不做解释</li>
+<li><code>for...in..</code>可以把一个对象的属性一次循环出来：<blockquote>
+<figure class="highlight cal"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> obj = &#123;</span><br><span class="line">    name:<span class="string">'Klay'</span>,</span><br><span class="line">    age:<span class="number">18</span>,</span><br><span class="line">    sex:<span class="string">'male'</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> key <span class="keyword">in</span> obj)&#123;</span><br><span class="line">    console.log(key);//<span class="string">'name'</span>,<span class="string">'age'</span>,<span class="string">'sex'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><h3 id="while（）-循环和do-while（）循环"><a href="#while（）-循环和do-while（）循环" class="headerlink" title="while（）{...}循环和do{...}while（）循环"></a><code>while（）{...}</code>循环和<code>do{...}while（）</code>循环</h3></li>
+<li><h3 id="Map-和Set"><a href="#Map-和Set" class="headerlink" title="Map()和Set();"></a>Map()和Set();</h3><ul>
+<li>初始化一个Map()：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">var map = new Map();</span><br><span class="line">map.set(&apos;key&apos;,&apos;value&apos;);//map == &#123;key:&apos;value&apos;&#125;</span><br><span class="line">map.set(&apos;name&apos;,&apos;Klay&apos;);//map == &#123;key:&apos;value&apos;,name:&apos;Klay&apos;&#125;</span><br><span class="line">map.has(&apos;name&apos;);//true</span><br><span class="line">map.delete(&apos;key&apos;);//map == &#123;name:&apos;Klay&apos;&#125;</span><br><span class="line">map.get(&apos;key&apos;);//undefined</span><br><span class="line">map.get(&apos;name&apos;);//Klay</span><br><span class="line">//一个key只能对应一个value，因此set()一个同key的不同value时，新加入的value会覆盖以前的value</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>初始化一个Set(),Set()也是一组key的集合，但是不保存value值。</p>
+  <figure class="highlight gams"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var <span class="keyword">set</span> = new <span class="comment">Set()</span>;</span><br><span class="line"><span class="keyword">set</span>.add([1,2,3]);</span><br><span class="line"><span class="keyword">set</span>.delete(3);<span class="comment">//set == &#123;1,2&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ul>
+<li><h3 id="iterable类型：Array-Map-Set"><a href="#iterable类型：Array-Map-Set" class="headerlink" title="iterable类型：Array,Map,Set"></a><code>iterable</code>类型：<code>Array</code>,<code>Map</code>,<code>Set</code></h3><ul>
+<li><p>遍历方法：</p>
+<ol>
+<li><p><code>for...of..</code></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>];</span><br><span class="line"><span class="keyword">var</span> s = <span class="keyword">new</span> <span class="built_in">Set</span>([<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>]);</span><br><span class="line"><span class="keyword">var</span> m = <span class="keyword">new</span> <span class="built_in">Map</span>([[<span class="number">1</span>, <span class="string">'x'</span>], [<span class="number">2</span>, <span class="string">'y'</span>], [<span class="number">3</span>, <span class="string">'z'</span>]]);</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">of</span> a) &#123; <span class="comment">// 遍历Array</span></span><br><span class="line">    alert(x);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">of</span> s) &#123; <span class="comment">// 遍历Set</span></span><br><span class="line">    alert(x);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">of</span> m) &#123; <span class="comment">// 遍历Map</span></span><br><span class="line">    alert(x[<span class="number">0</span>] + <span class="string">'='</span> + x[<span class="number">1</span>]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><code>forEach(function());</code></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//数组遍历</span></span><br><span class="line"><span class="keyword">var</span> a = [<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>];</span><br><span class="line">a.<span class="keyword">forEach</span>(<span class="function"><span class="keyword">function</span> <span class="params">(element, index, array)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// element: 指向当前元素的值</span></span><br><span class="line">    <span class="comment">// index: 指向当前索引</span></span><br><span class="line">    <span class="comment">// array: 指向Array对象本身</span></span><br><span class="line">    alert(element);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">//Set()遍历</span></span><br><span class="line"><span class="keyword">var</span> s = <span class="keyword">new</span> Set([<span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>]);</span><br><span class="line">s.<span class="keyword">forEach</span>(<span class="function"><span class="keyword">function</span> <span class="params">(element, sameElement, set)</span> </span>&#123;</span><br><span class="line">    alert(element);</span><br><span class="line">&#125;);</span><br><span class="line"><span class="comment">//Map()遍历</span></span><br><span class="line"><span class="keyword">var</span> m = <span class="keyword">new</span> Map([[<span class="number">1</span>, <span class="string">'x'</span>], [<span class="number">2</span>, <span class="string">'y'</span>], [<span class="number">3</span>, <span class="string">'z'</span>]]);</span><br><span class="line">m.<span class="keyword">forEach</span>(<span class="function"><span class="keyword">function</span> <span class="params">(value, key, map)</span> </span>&#123;</span><br><span class="line">    alert(value);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><h3 id="javascript异步模式的编程的四种解决方法："><a href="#javascript异步模式的编程的四种解决方法：" class="headerlink" title="javascript异步模式的编程的四种解决方法："></a>javascript异步模式的编程的四种解决方法：</h3><ol>
+<li>回调函数（callback）<blockquote>
+<p>这是异步编程的最基本的方法。回调函数的优点是简单、容易理解和部署，缺点是不利于代码的阅读和维护，各个部分之间高度耦合（Coupling），流程会很混乱，而且每个任务只能指定一个回调函数。</p>
+</blockquote>
+</li>
+<li>事件监听<blockquote>
+<p>采用事件驱动模式。任务的执行不取决于代码的顺序，而取决于某个事件是否发生。<br><br> f1.on（‘done’， f2）;<br> //上面这行代码的意思是，当f1发生done事件，就执行f2。然后，对f1进行改写：<br> function f1（）{<br> 　　setTimeout（function （） {<br> 　　// f1的任务代码<br> 　　f1.trigger（‘done’）;<br> 　　}， 1000）;<br> }<br> f1.trigger（‘done’）表示，执行完成后，立即触发done事件，从而开始执行f2。</p>
+</blockquote>
+</li>
+<li><strong><em>发布/订阅（publish-subscribe pattern）</em></strong></li>
+<li>Promises对象<blockquote>
+<p>Promises对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口。</p>
+</blockquote>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="10-css"><a href="#10-css" class="headerlink" title="10.css :"></a>10.css :</h3><ul>
+<li><h4 id="表格样式："><a href="#表格样式：" class="headerlink" title="表格样式："></a>表格样式：</h4><ul>
+<li><p>border-collapse 属性设置是否将表格边框折叠为单一边框：</p>
+  <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">table</span>&#123;</span><br><span class="line">    <span class="attribute">border-collapse</span>:collapse;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>text-align 和 vertical-align 属性设置表格中文本的对齐方式</p>
+</li>
+</ul>
+</li>
+<li><h4 id="margin-和-padding"><a href="#margin-和-padding" class="headerlink" title="margin 和 padding:"></a><code>margin</code> 和 <code>padding</code>:</h4><ul>
+<li><strong><em>内边距、边框和外边距可以应用于一个元素的所有边，也可以应用于单独的边。</em></strong></li>
+<li><strong><em>外边距可以是负值，而且在很多情况下都要使用负值的外边距。</em></strong></li>
+<li><code>padding:top,right,bottom,left</code> , <code>margin: top,right;bottom,left</code></li>
+<li><strong><em>浏览器兼容性</em></strong><ul>
+<li>一旦为页面设置了恰当的 DTD，大多数浏览器都会按照上面的图示来呈现内容。然而 IE 5 和 6 的呈现却是不正确的。根据 W3C 的规范，元素内容占据的空间是由 width 属性设置的，而内容周围的 padding 和 border 值是另外计算的。不幸的是，IE5.X 和 6 在怪异模式中使用自己的非标准模型。<strong><em>外这些浏览器的 width 属性不是内容的宽度，而是内容、内边距和边框的宽度的总和。</em></strong></li>
+<li>虽然有方法解决这个问题。但是目前<strong><em>最好的解决方案是回避</em></strong>这个问题。也就是，不要给元素添加具有指定宽度的内边距，而是尝试将内边距或外边距添加到元素的父元素和子元素。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><h4 id="border"><a href="#border" class="headerlink" title="border:"></a><code>border</code>:</h4><ul>
+<li><code>border:style,width,color;</code></li>
+</ul>
+</li>
+<li><h4 id="外边距合并"><a href="#外边距合并" class="headerlink" title="外边距合并"></a>外边距合并</h4><ul>
+<li>外边距合并（叠加）是一个相当简单的概念。但是，在实践中对网页进行布局时，它会造成许多混淆。简单地说，外边距合并指的是，当两个垂直外边距相遇时，它们将形成一个外边距。合并后的外边距的高度等于两个发生合并的外边距的高度中的较大者。</li>
+</ul>
+</li>
+<li><h4 id="css定位（Positioning）："><a href="#css定位（Positioning）：" class="headerlink" title="css定位（Positioning）："></a>css定位（Positioning）：</h4><ul>
+<li>CSS 定位和浮动</li>
+<li>CSS 有三种基本的定位机制：<strong><em>普通流、浮动和绝对定位</em></strong>。</li>
+<li>css position属性：<ul>
+<li><strong>static</strong>:元素框正常生成一个矩形框，作为文档流的一部分，行内元素则会创建一个或多个行框，置于父元素中。</li>
+<li><strong>relative</strong> ： 元素偏移某个距离。元素仍然保持其定位前的形状，它原被所占的空间仍然保留。<ul>
+<li>相对定位是“相对于”元素在文档中的初始位置</li>
+</ul>
+</li>
+<li><strong>absolute</strong> ： 元素框从文档流完全删除，并相对于其包含块定位。包含块可能是文档中的另一个元素或者是初始包含块。元素原先在正常文档流中所占的空间会关闭，就好像元素原来不存在一样。元素定位后生成一个块级框，而不论原来它在正常流中生成何种类型的框。<ul>
+<li>绝对定位是“相对于”最近的已定位祖先元素，如果不存在已定位的祖先元素，那么“相对于”最初的包含块</li>
+</ul>
+</li>
+<li><strong>fixed</strong>： 元素框的表现类似于将 position 设置为 absolute，不过其包含块是视窗本身。</li>
+</ul>
+</li>
+<li>css 浮动：<ul>
+<li>浮动的框可以向左或向右移动，直到它的外边缘碰到包含框或另一个浮动框的边框为止。由于浮动框不在文档的普通流中，<em>所以文档的普通流中的块框表现得就像浮动框不存在一样</em>。</li>
+</ul>
+</li>
+<li>css float 属性：</li>
+</ul>
+</li>
+<li><h4 id="css-水平对齐："><a href="#css-水平对齐：" class="headerlink" title="css 水平对齐："></a>css 水平对齐：</h4><ul>
+<li><p>使用 <code>margin</code> 属性来水平对齐：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 除非已经声明了 !DOCTYPE，</span></span><br><span class="line"><span class="comment">// 否则使用 margin:auto 在 IE8 以及更早的版本中是无效的</span></span><br><span class="line"><span class="attribute">margin</span>:auto <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用 <code>position</code> 属性进行左和右对齐</p>
+</li>
+<li>** </li>
+</ul>
+</li>
+</ul>
+</p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank" class="fa fa-bookmark"></a></span><span class="soc"><a href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));" class="fa fa-weibo"></a></span><span class="soc"><a href="http://twitter.com/home?status=http://yoursite.com/2017/03/18/web前端面试基础知识总结（逐步完善）/%20Klay-Clam's Blog%20web前端面试基础知识总结（逐步完善）" class="fa fa-twitter"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2017/07/26/MongoDB/" title="MongoDB 学习笔记-Windows下的安装配置"><i class="fa fa-angle-double-left"></i>&nbsp;Previous post: MongoDB 学习笔记-Windows下的安装配置</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2016/10/22/backbone源码分析（二）-backbone实例todos分析（1）/" title="backbone源码分析（二）- backbone实例todos分析">Next post: backbone源码分析（二）- backbone实例todos分析&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2018&nbsp;<a target="_blank" href="http://yoursite.com" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>

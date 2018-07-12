@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Klay-Clam&#39;s Blog</title>
+  
+  <subtitle>Basketball career have scrapped and wanna to be a Full Stack Developer</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-07-12T14:25:21.757Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Klay-Clam</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/07/12/hello-world/"/>
+    <id>http://yoursite.com/2018/07/12/hello-world/</id>
+    <published>2018-07-12T14:25:21.757Z</published>
+    <updated>2018-07-12T14:25:21.757Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2018年我会更好吗</title>
+    <link href="http://yoursite.com/2018/01/07/2018-projection/"/>
+    <id>http://yoursite.com/2018/01/07/2018-projection/</id>
+    <published>2018-01-07T15:09:17.000Z</published>
+    <updated>2018-01-07T15:12:50.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;思考人生啦。这几天一直在思考2018年应该做些什么，这里将这些想法记录下来。是否可行在后面逐条调查。包括自己的学习计划，职业规划以及生活上的展望。&lt;br&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2017年的总结--兵慌马乱，生活不易，未来可期</title>
+    <link href="http://yoursite.com/2017/12/30/2017-summary/"/>
+    <id>http://yoursite.com/2017/12/30/2017-summary/</id>
+    <published>2017-12-30T14:49:10.000Z</published>
+    <updated>2018-01-07T15:08:15.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在的时间是2017年12月25日，圣诞节。再有五天就到了新的一年了，回过头来想想2017年，感受颇多。蛮长时间没有对自己做总结了，年关将至，应该做一次总结啦。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>厦门美团面试总结</title>
+    <link href="http://yoursite.com/2017/11/19/xiamenmeituanzongjie/"/>
+    <id>http://yoursite.com/2017/11/19/xiamenmeituanzongjie/</id>
+    <published>2017-11-19T14:30:56.000Z</published>
+    <updated>2017-11-19T14:43:03.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://www.trendstyle.com.cn/res/public/share/trendstyle/10127/14345948794.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2017.11.02 美团的所有的面试结束，结果不尽如人意。虽然这样仍然觉得收获颇丰。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="http://yoursite.com/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>javascript 中的变量提升的问题</title>
+    <link href="http://yoursite.com/2017/10/22/javascript%E4%B8%AD%E7%9A%84%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2017/10/22/javascript中的变量提升问题/</id>
+    <published>2017-10-22T07:01:02.000Z</published>
+    <updated>2017-10-22T07:01:02.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;变量提升&quot;&gt;&lt;a href=&quot;#变量提升&quot; class=&quot;headerlink&quot; title=&quot;变量提升&quot;&gt;&lt;/a&gt;变量提升&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;变量提升即将变量声明提升到它所在作用域的最开始的部分，即函数声明和变量声明总是被JavaScript解释器隐式地提升(hoist)到包含他们的作用域的最顶端。在ES6之前，JavaScript没有块级作用域(一对花括号{}即为一个块级作用域)，只有全局作用域和函数作用域。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+      <category term="变量提升" scheme="http://yoursite.com/tags/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AWESOME IDEA 和 最近的一些思考</title>
+    <link href="http://yoursite.com/2017/10/22/awesome-idea/"/>
+    <id>http://yoursite.com/2017/10/22/awesome-idea/</id>
+    <published>2017-10-22T06:07:54.000Z</published>
+    <updated>2017-10-22T07:17:45.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;WHY-AWESOME&quot;&gt;&lt;a href=&quot;#WHY-AWESOME&quot; class=&quot;headerlink&quot; title=&quot;WHY AWESOME?&quot;&gt;&lt;/a&gt;WHY AWESOME?&lt;/h2&gt;&lt;p&gt;就在刚才，我看到了一个来自我follow的一位大佬的github主页上&lt;code&gt;contributions in the last year&lt;/code&gt;,如图：&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Klay-Clam/Klay-Clam.github.io/master/img/awesome-idea1.png&quot; alt=&quot;大佬的github提交记录&quot;&gt;&lt;/p&gt;
+&lt;p&gt;哇，好牛X[消音]！绿油油的不要太好看。等等(ㅍ_ㅍ)，这个矩阵…我可以用它画画呀，我简直是个小天才。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[转载]javascript中的作用域和闭包问题</title>
+    <link href="http://yoursite.com/2017/10/18/%E8%BD%AC%E8%BD%BD-javascript%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2017/10/18/转载-javascript中的作用域和闭包问题/</id>
+    <published>2017-10-18T11:58:58.000Z</published>
+    <updated>2017-10-22T06:59:54.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;学习了javascript已经很久了，关于这个语言中的这两个特性也是早已耳熟能详，但是在实际的使用的过程中或者是遇到相关的问题的时候，还是不能很好的解决。&lt;br&gt;因此我觉得很有必要深入的学习并且记录这个问题，以便在今后的学习和使用的过程中回顾。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+      <category term="闭包" scheme="http://yoursite.com/tags/%E9%97%AD%E5%8C%85/"/>
+    
+      <category term="作用域" scheme="http://yoursite.com/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript 中的call(),apply()和bind()</title>
+    <link href="http://yoursite.com/2017/10/16/callapplybind/"/>
+    <id>http://yoursite.com/2017/10/16/callapplybind/</id>
+    <published>2017-10-16T11:38:17.000Z</published>
+    <updated>2017-10-22T07:00:28.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一、细节&quot;&gt;&lt;a href=&quot;#一、细节&quot; class=&quot;headerlink&quot; title=&quot;一、细节&quot;&gt;&lt;/a&gt;一、细节&lt;/h2&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;javascript 中函数存在“定义时上下文”，“运行时上下文”&lt;/li&gt;
+&lt;li&gt;上下文是可变的
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+      <category term="call" scheme="http://yoursite.com/tags/call/"/>
+    
+      <category term="apply" scheme="http://yoursite.com/tags/apply/"/>
+    
+      <category term="bind" scheme="http://yoursite.com/tags/bind/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>上海某电商公司前端实习面试</title>
+    <link href="http://yoursite.com/2017/10/14/%E4%B8%8A%E6%B5%B7%E6%9F%90%E7%94%B5%E5%95%86%E5%85%AC%E5%8F%B8%E5%89%8D%E7%AB%AF%E5%AE%9E%E4%B9%A0%E9%9D%A2%E8%AF%95/"/>
+    <id>http://yoursite.com/2017/10/14/上海某电商公司前端实习面试/</id>
+    <published>2017-10-14T05:18:27.000Z</published>
+    <updated>2017-10-22T06:59:48.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;面试时间：2017.10.09。现在还没有收到最终的答复，应该是挂了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、面试过程&quot;&gt;&lt;a href=&quot;#一、面试过程&quot; class=&quot;headerlink&quot; title=&quot;一、面试过程&quot;&gt;&lt;/a&gt;一、面试过程&lt;/h2&gt;&lt;h3 id=&quot;1-去公司和第一印象&quot;&gt;&lt;a href=&quot;#1-去公司和第一印象&quot; class=&quot;headerlink&quot; title=&quot;1. 去公司和第一印象&quot;&gt;&lt;/a&gt;1. 去公司和第一印象&lt;/h3&gt;&lt;p&gt;约定的时间实在下午三点，我快三点的时候到的。公司的周围环境看起来一般，进到他们软件园觉得还挺好看的?他们公司在一个角落，有门禁进不去，就在门口给hr打电话，出来之后领着我去了隔壁的隔壁的意见办公室，有三个小姐姐在办公，里面有一个玻璃房，看起来是一个休息的地方，桌子上emm油腻腻的，大概是中午吃的饭掉桌子上了。然后hr就说等她一下。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="http://yoursite.com/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>厦门美团前端面试（电话面试一面&amp;电话面试二面）</title>
+    <link href="http://yoursite.com/2017/10/13/%E5%8E%A6%E9%97%A8%E7%BE%8E%E5%9B%A2%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%EF%BC%88%E7%94%B5%E8%AF%9D%E9%9D%A2%E8%AF%95%E4%B8%80%E9%9D%A2%EF%BC%89/"/>
+    <id>http://yoursite.com/2017/10/13/厦门美团前端面试（电话面试一面）/</id>
+    <published>2017-10-13T13:17:09.000Z</published>
+    <updated>2017-10-23T12:54:34.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;面试时间：9.26下午，过程大约接近40分钟&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、面试过程&quot;&gt;&lt;a href=&quot;#一、面试过程&quot; class=&quot;headerlink&quot; title=&quot;一、面试过程&quot;&gt;&lt;/a&gt;一、面试过程&lt;/h2&gt;&lt;h3 id=&quot;1-自我介绍&quot;&gt;&lt;a href=&quot;#1-自我介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 自我介绍&quot;&gt;&lt;/a&gt;1. 自我介绍&lt;/h3&gt;&lt;h3 id=&quot;2-介绍项目，实习的业务逻辑&quot;&gt;&lt;a href=&quot;#2-介绍项目，实习的业务逻辑&quot; class=&quot;headerlink&quot; title=&quot;2. 介绍项目，实习的业务逻辑&quot;&gt;&lt;/a&gt;2. 介绍项目，实习的业务逻辑&lt;/h3&gt;&lt;h3 id=&quot;3-针对简历中的MongoDB的连接池的问题&quot;&gt;&lt;a href=&quot;#3-针对简历中的MongoDB的连接池的问题&quot; class=&quot;headerlink&quot; title=&quot;3. 针对简历中的MongoDB的连接池的问题&quot;&gt;&lt;/a&gt;3. 针对简历中的MongoDB的连接池的问题&lt;/h3&gt;&lt;h3 id=&quot;4-模块化开发&quot;&gt;&lt;a href=&quot;#4-模块化开发&quot; class=&quot;headerlink&quot; title=&quot;4. 模块化开发&quot;&gt;&lt;/a&gt;4. 模块化开发&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="http://yoursite.com/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DaoCloud 上海前端面试</title>
+    <link href="http://yoursite.com/2017/09/13/daocloud%E9%9D%A2%E8%AF%95/"/>
+    <id>http://yoursite.com/2017/09/13/daocloud面试/</id>
+    <published>2017-09-13T14:39:28.000Z</published>
+    <updated>2017-10-22T07:00:29.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;简历投递&quot;&gt;&lt;a href=&quot;#简历投递&quot; class=&quot;headerlink&quot; title=&quot;简历投递&quot;&gt;&lt;/a&gt;简历投递&lt;/h1&gt;&lt;p&gt;昨天早上起床在拉勾网看到了DaoCloud的招聘的启示，然后贴出了hr的邮箱。我就顺手发了一封邮件。和附件简历。&lt;br&gt;差不多中午的时候，hr小姐姐联络我下午4:30进行电话面试。&lt;/p&gt;
+&lt;h1 id=&quot;面试过程&quot;&gt;&lt;a href=&quot;#面试过程&quot; class=&quot;headerlink&quot; title=&quot;面试过程&quot;&gt;&lt;/a&gt;面试过程&lt;/h1&gt;&lt;p&gt;下午4:30，面试官的电话准时过来。我接到电话表示先去一个比较安静的环境再开始面试。面试官耐心的在等（YY的）。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="面试" scheme="http://yoursite.com/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>javascript 实现二分查找</title>
+    <link href="http://yoursite.com/2017/09/06/javascript-%E5%AE%9E%E7%8E%B0%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
+    <id>http://yoursite.com/2017/09/06/javascript-实现二分查找/</id>
+    <published>2017-09-06T12:15:40.000Z</published>
+    <updated>2017-10-22T07:00:42.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;直接上代码：&quot;&gt;&lt;a href=&quot;#直接上代码：&quot; class=&quot;headerlink&quot; title=&quot;直接上代码：&quot;&gt;&lt;/a&gt;直接上代码：&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+      <category term="Binary-Search" scheme="http://yoursite.com/tags/Binary-Search/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MongoDB 数据库的备份、恢复和迁移</title>
+    <link href="http://yoursite.com/2017/08/19/mongodumpandrestore/"/>
+    <id>http://yoursite.com/2017/08/19/mongodumpandrestore/</id>
+    <published>2017-08-19T09:08:07.000Z</published>
+    <updated>2017-10-22T07:01:16.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;MongoDB-数据库的备份&quot;&gt;&lt;a href=&quot;#MongoDB-数据库的备份&quot; class=&quot;headerlink&quot; title=&quot;MongoDB 数据库的备份&quot;&gt;&lt;/a&gt;MongoDB 数据库的备份&lt;/h3&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; （ubuntu用户）进入命令行，输入一下命令，查看mongodump的参数和用法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; mongodump --&lt;span class=&quot;built_in&quot;&gt;help&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; （Windows用户）打开cmd ，&lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; 进入MongoDB安装目录下的bin目录。我的是C:\MongoDB\bin,输入以下命令查看mongodump的参数和用法&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; mongodump.exe /&lt;span class=&quot;built_in&quot;&gt;help&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MongoDB" scheme="http://yoursite.com/tags/MongoDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ECMAscript 6 深入浅出学习笔记-generators</title>
+    <link href="http://yoursite.com/2017/08/14/esgenerators/"/>
+    <id>http://yoursite.com/2017/08/14/esgenerators/</id>
+    <published>2017-08-14T12:46:41.000Z</published>
+    <updated>2017-10-22T07:00:26.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/cn/articles/es6-in-depth-generators?utm_source=articles_about_ES6-In-Depth&amp;amp;utm_medium=link&amp;amp;utm_campaign=ES6-In-Depth&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;深入浅出ES6（三）：生成器 Generators&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="node" scheme="http://yoursite.com/categories/node/"/>
+    
+    
+      <category term="es6" scheme="http://yoursite.com/tags/es6/"/>
+    
+      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>近期的文章规划，以及阶段性总结</title>
+    <link href="http://yoursite.com/2017/08/12/newarticleplan/"/>
+    <id>http://yoursite.com/2017/08/12/newarticleplan/</id>
+    <published>2017-08-12T15:05:36.000Z</published>
+    <updated>2017-10-22T07:01:21.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Klay-Clam/Klay-Clam.github.io/master/img/newblogplan.jpg&quot; alt=&quot;来自网络，侵删&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;实习已经接近一个月，进入项目组也有二十来天。过程中有过不少的小插曲，有反思，收集、积累和行动。总之，想来写写。主要分为两部分：近期的学习计划及文章的规划、阶段性的一个总结。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Plan" scheme="http://yoursite.com/tags/Plan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过edge.js调用C# 动态链接库 dll，我踩踩坑什么的</title>
+    <link href="http://yoursite.com/2017/08/10/nodeedgecsharp/"/>
+    <id>http://yoursite.com/2017/08/10/nodeedgecsharp/</id>
+    <published>2017-08-10T13:38:35.000Z</published>
+    <updated>2017-10-22T07:01:34.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;使用edge.js调用.dll文件 第二次补充：&lt;br&gt;edgejs按我个人理解，是一个允许通过Node去调用 C# 的一个库。因为最近的项目需要才接触的。具体参考&lt;a href=&quot;https://github.com/tjanczuk/edge&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里[edge.js Github]&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;使用npm-init初始化项目，安装依赖edge-npm-install-gd-edge&quot;&gt;&lt;a href=&quot;#使用npm-init初始化项目，安装依赖edge-npm-install-gd-edge&quot; class=&quot;headerlink&quot; title=&quot;使用npm init初始化项目，安装依赖edge,npm install -gd edge.&quot;&gt;&lt;/a&gt;使用npm init初始化项目，安装依赖edge,npm install -gd edge.&lt;/h4&gt;&lt;h4 id=&quot;C-代码，经过编译之后生成了print-dll文件&quot;&gt;&lt;a href=&quot;#C-代码，经过编译之后生成了print-dll文件&quot; class=&quot;headerlink&quot; title=&quot;C#代码，经过编译之后生成了print.dll文件&quot;&gt;&lt;/a&gt;C#代码，经过编译之后生成了print.dll文件&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="node" scheme="http://yoursite.com/categories/node/"/>
+    
+    
+      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+    
+      <category term="edge.js" scheme="http://yoursite.com/tags/edge-js/"/>
+    
+      <category term="C#" scheme="http://yoursite.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node接收和处理前端的Ajax请求</title>
+    <link href="http://yoursite.com/2017/08/02/nodeExpressAjax/"/>
+    <id>http://yoursite.com/2017/08/02/nodeExpressAjax/</id>
+    <published>2017-08-02T13:13:24.000Z</published>
+    <updated>2017-10-22T07:01:54.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;前几天在学习 &lt;code&gt;express&lt;/code&gt; 的过程中，不想使用一些类似&lt;code&gt;ejs&lt;/code&gt;这样的模板中的一些特性，所以尝试着使用ajax来与node后端交互。来这里记录一下。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;1-安装express&quot;&gt;&lt;a href=&quot;#1-安装express&quot; class=&quot;headerlink&quot; title=&quot;1. 安装express&quot;&gt;&lt;/a&gt;1. 安装express&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;当然安装和使用express的前提是，你的设备已经有Node的环境了。没有的话自己去找吧～嘻嘻。&lt;br&gt;    我的环境：&lt;code&gt;Ubuntu 16.04、node v6.10.2、npm 3.10.10&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;使用&lt;code&gt;npm install -g express&lt;/code&gt; ,全局安装express。使用命令&lt;code&gt;express --version&lt;/code&gt;检查是否正确安装了，如果已经正确的安装，就会打印版本号。&lt;blockquote&gt;
+&lt;p&gt;需要注意的是，使用npm的时候有可能会出现权限不足的问题，这时只需要使用 &lt;code&gt;sudo npm install express&lt;/code&gt;即可。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2-创建一个express项目&quot;&gt;&lt;a href=&quot;#2-创建一个express项目&quot; class=&quot;headerlink&quot; title=&quot;2. 创建一个express项目&quot;&gt;&lt;/a&gt;2. 创建一个express项目&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;命令行进入你想创建项目的路径，使用&lt;code&gt;express -e my-first-project&lt;/code&gt;创建一个名为&lt;strong&gt;my-first-project&lt;/strong&gt;的项目。&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; dependencies:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     $ cd my-&lt;span class=&quot;keyword&quot;&gt;first&lt;/span&gt;-&lt;span class=&quot;keyword&quot;&gt;project&lt;/span&gt; &amp;amp;&amp;amp; npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   run the app:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     $ DEBUG=my-&lt;span class=&quot;keyword&quot;&gt;first&lt;/span&gt;-&lt;span class=&quot;keyword&quot;&gt;project&lt;/span&gt;:* npm &lt;span class=&quot;keyword&quot;&gt;start&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;提示我们进入项目目录，并安装依赖：&lt;code&gt;cd my-first-project &amp;amp;&amp;amp; npm install&lt;/code&gt; ,npm 就会开始下载一些项目需要的依赖啦，比如&lt;code&gt;ejs&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight lsl&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;59&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;my-first-project@&lt;span class=&quot;number&quot;&gt;0.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; /media/clam/Document/WebStormworkspace/Vue/my-first-project&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├─┬ body-parser@&lt;span class=&quot;number&quot;&gt;1.17&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── bytes@&lt;span class=&quot;number&quot;&gt;2.4&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── content-type@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── debug@&lt;span class=&quot;number&quot;&gt;2.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.7&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── depd@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├─┬ http-errors@&lt;span class=&quot;number&quot;&gt;1.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ ├── depd@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ └── inherits@&lt;span class=&quot;number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── iconv-lite@&lt;span class=&quot;number&quot;&gt;0.4&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.15&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├─┬ on-finished@&lt;span class=&quot;number&quot;&gt;2.3&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ └── ee-first@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── qs@&lt;span class=&quot;number&quot;&gt;6.4&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├─┬ raw-body@&lt;span class=&quot;number&quot;&gt;2.2&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ └── unpipe@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ └─┬ type-is@&lt;span class=&quot;number&quot;&gt;1.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.15&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   ├── media-typer@&lt;span class=&quot;number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   └─┬ mime-types@&lt;span class=&quot;number&quot;&gt;2.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.16&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│     └── mime-db@&lt;span class=&quot;number&quot;&gt;1.29&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├─┬ cookie-parser@&lt;span class=&quot;number&quot;&gt;1.4&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── cookie@&lt;span class=&quot;number&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ └── cookie-signature@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.6&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├─┬ debug@&lt;span class=&quot;number&quot;&gt;2.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.8&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ └── ms@&lt;span class=&quot;number&quot;&gt;2.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── ejs@&lt;span class=&quot;number&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.7&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├─┬ express@&lt;span class=&quot;number&quot;&gt;4.15&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├─┬ accepts@&lt;span class=&quot;number&quot;&gt;1.3&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ └── negotiator@&lt;span class=&quot;number&quot;&gt;0.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── array-flatten@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── content-disposition@&lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── debug@&lt;span class=&quot;number&quot;&gt;2.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.7&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── encodeurl@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── escape-html@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── etag@&lt;span class=&quot;number&quot;&gt;1.8&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├─┬ finalhandler@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ └── debug@&lt;span class=&quot;number&quot;&gt;2.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.7&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── fresh@&lt;span class=&quot;number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── merge-descriptors@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── methods@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── parseurl@&lt;span class=&quot;number&quot;&gt;1.3&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── path-to-regexp@&lt;span class=&quot;number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.7&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├─┬ proxy-addr@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.5&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ ├── forwarded@&lt;span class=&quot;number&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ └── ipaddr.js@&lt;span class=&quot;number&quot;&gt;1.4&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── range-parser@&lt;span class=&quot;number&quot;&gt;1.2&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├─┬ send@&lt;span class=&quot;number&quot;&gt;0.15&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ ├── debug@&lt;span class=&quot;number&quot;&gt;2.6&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.7&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ ├── destroy@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.4&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ │ └── mime@&lt;span class=&quot;number&quot;&gt;1.3&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.4&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── serve-static@&lt;span class=&quot;number&quot;&gt;1.12&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── setprototypeof@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── statuses@&lt;span class=&quot;number&quot;&gt;1.3&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── utils-merge@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ └── vary@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├─┬ morgan@&lt;span class=&quot;number&quot;&gt;1.8&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.2&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ ├── basic-auth@&lt;span class=&quot;number&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│ └── on-headers@&lt;span class=&quot;number&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└─┬ serve-favicon@&lt;span class=&quot;number&quot;&gt;2.4&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.3&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  └── safe-buffer@&lt;span class=&quot;number&quot;&gt;5.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;震惊！居然有这么多..&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;接下来我们来看看项目的文件结构吧&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── app.js&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── bin&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   └── www&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── node_modules&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   └── 这里有一堆文件..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── package.json&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── public&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   ├── images&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   ├── javascripts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   └── stylesheets&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│       └── style.css&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── routes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   ├── index.js&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│   └── users.js&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── views&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    ├── error.ejs&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    └── index.ejs&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;bin&lt;/strong&gt; 存放我们最终上线部署的文件;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;node_modules&lt;/strong&gt; 存放我们项目中下载的依赖;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;package.json&lt;/strong&gt; 我们项目的一些配置文件的设置，项目的信息等。&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;public&lt;/strong&gt; 存放一些静态文件，图片呀，字体呀，css呀，js呀什么的。&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;routes&lt;/strong&gt; 我们项目的路由就在这里编写，相当于controller。下面有两个示例路由文件。&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;views&lt;/strong&gt;  我们项目的视图就是放在这里的。下面有两个示例的试图文件，在这里你会发现是&lt;code&gt;.ejs&lt;/code&gt;文件。这是因为我们在创建项目的时候使用了ejs模板引擎。等开始之后我们不会用他。&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;app.js&lt;/strong&gt; 这个文件，是我们项目的入口。 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;让我们来启动项目看效果吧～&lt;br&gt;使用命令&lt;code&gt;node ./bin/www&lt;/code&gt;或者&lt;code&gt;npm start&lt;/code&gt;都可以启动项目。然后我们打开浏览器，输入 &lt;strong&gt;&lt;a href=&quot;http://127.0.0.1:3000&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://127.0.0.1:3000&lt;/a&gt;&lt;/strong&gt;,就可以看到效果了。&lt;blockquote&gt;
+&lt;p&gt;Welcome to Express!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;3-进入正题&quot;&gt;&lt;a href=&quot;#3-进入正题&quot; class=&quot;headerlink&quot; title=&quot;3. 进入正题&quot;&gt;&lt;/a&gt;3. 进入正题&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;扯了那么多终于进入正题了。不过在此之前，我们首先要将.ejs文件改成.html,这样顺眼多了..&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;打开 app.js&lt;br&gt;找到 &lt;code&gt;// view engine setup&lt;/code&gt;，在下面添加代码&lt;figure class=&quot;highlight less&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.engine&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;.html&#39;&lt;/span&gt;, ejs.__express);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.set&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;view engine&#39;&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;&#39;html&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在顶端引入ejs&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ejs = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;ejs&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;做完这些修改之后，记得将views文件夹下面的文件后缀全都修改成.html哈，当然虽然是.html文件，但是依旧可以使用ejs的特性。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;做完这些修改之后，记得将views文件夹下面的文件后缀全都修改成.html哈，当然虽然是.html文件，但是依旧可以使用ejs的特性。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;编写前端视图文件&lt;br&gt;就在 &lt;code&gt;index.html&lt;/code&gt;文件的基础上修改好了。下面是我写的demo：&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;// index.html&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;Demo&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;rel&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&#39;stylesheet&#39;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&#39;/stylesheets/style.css&#39;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;/javascripts/jquery.min.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;searchKeyWord&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;button&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;search&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;Search&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;button&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;label&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;for&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;title&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;Title:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;label&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;title&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;value&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;TITLE&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;label&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;for&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;content&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;Content:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;label&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;content&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;value&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;placeholder&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;Content&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;submit&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;submit&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;button&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;写到这里，觉得还是给这个小项目创建一个数据库吧，这样写起来可能更有意思一点。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;创建数据库&lt;figure class=&quot;highlight less&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# 已经开启了用户认证，所以首先在命令行中先为数据库创建用户&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;&lt;span class=&quot;selector-tag&quot;&gt;mongo&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;&lt;span class=&quot;selector-tag&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;blog&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;&lt;span class=&quot;selector-tag&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;selector-class&quot;&gt;.createUser&lt;/span&gt;(&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;user&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&#39;bloger&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;pwd&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&#39;bloger&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;attribute&quot;&gt;roles&lt;/span&gt;:[&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;attribute&quot;&gt;role&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&#39;readWrite&#39;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;attribute&quot;&gt;db&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&#39;blog&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    ]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#创建成功&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;进入项目目录，安装mongoose,打开 &lt;code&gt;package.json&lt;/code&gt;，添加mmongoose依赖。&lt;br&gt;&lt;figure class=&quot;highlight vala&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;: &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;body-parser&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;~1.17.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;cookie-parser&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;~1.4.3&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;debug&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;~2.6.3&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;ejs&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;~2.5.6&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;express&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;~4.15.2&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;morgan&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;~1.8.1&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;serve-favicon&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;~2.4.2&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;string&quot;&gt;&quot;mongoose&quot;&lt;/span&gt;:&lt;span class=&quot;string&quot;&gt;&quot;4.11.5&quot;&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;// 添加mongoose依赖&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;# 保存之后，在命令行中重新安装依赖&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; npm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;创建结构如下目录：&lt;br&gt;&lt;figure class=&quot;highlight 1c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;│—— models&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;|  └── dbs&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;│     ├── contents.js&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── db.js&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;以下是 &lt;em&gt;db.js&lt;/em&gt;的内容：&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; mongoose = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;mongoose&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 设置存储路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; DB_URL = &lt;span class=&quot;string&quot;&gt;&#39;mongodb://bloger:bloger@127.0.0.1:27017/blog&#39;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//连接数据库&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mongoose.connect(DB_URL);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 连接成功之后输出语句&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mongoose.connection.on(&lt;span class=&quot;string&quot;&gt;&quot;connected&quot;&lt;/span&gt;,&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&#39;Mongoose connect &#39;&lt;/span&gt; + DB_URL + &lt;span class=&quot;string&quot;&gt;&#39; success&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 数据库连接失败之后 输出错误信息&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mongoose.connection.on(&lt;span class=&quot;string&quot;&gt;&#39;error&#39;&lt;/span&gt;,&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;err&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&quot;Mongoose connect error: &quot;&lt;/span&gt; + err);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 断开数据库连接之后 输出日志&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mongoose.connection.on(&lt;span class=&quot;string&quot;&gt;&quot;disconnected&quot;&lt;/span&gt;,&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&#39;Mongoose connect disconnected&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;module&lt;/span&gt;.exports = mongoose;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;以下是&lt;em&gt;contents.js&lt;/em&gt;的内容：&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; mongoose = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;../db&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; Schema = mongoose.Schema;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; blogSchema = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; Schema(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    title:&lt;span class=&quot;built_in&quot;&gt;String&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    author:&lt;span class=&quot;built_in&quot;&gt;String&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    content:&lt;span class=&quot;built_in&quot;&gt;String&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    date: &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;module&lt;/span&gt;.exports = mongoose.model(&lt;span class=&quot;string&quot;&gt;&#39;blog&#39;&lt;/span&gt;,blogSchema);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以上就是在命令行建立数据库、为数据库创建用户以及服务端使用mongoose模块操作数据库的代码。接下来，来看看前端如何使用ajax发起post请求。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;前端发起ajax请求&lt;/p&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 使用jquery 来写ajax。首先在head标签中引入jquery。才能在这里用的。 --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- script --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;    $(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; (&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;      $(&lt;span class=&quot;string&quot;&gt;&quot;#submit&quot;&lt;/span&gt;).click(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; (&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;actionscript&quot;&gt;          &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; url = &lt;span class=&quot;string&quot;&gt;&quot;/&quot;&lt;/span&gt;; &lt;span class=&quot;comment&quot;&gt;/*后端暴露给前端的接口*/&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;actionscript&quot;&gt;          &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; data = &amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;            title: $(&lt;span class=&quot;string&quot;&gt;&#39;#title&#39;&lt;/span&gt;).val(),&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;            author: $(&lt;span class=&quot;string&quot;&gt;&#39;#author&#39;&lt;/span&gt;).val(),&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;            content: $(&lt;span class=&quot;string&quot;&gt;&#39;#content&#39;&lt;/span&gt;).val()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;          &amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;          $.ajax(&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;            url: url,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;            data: data,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;actionscript&quot;&gt;            dataType: &lt;span class=&quot;string&quot;&gt;&#39;json&#39;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;actionscript&quot;&gt;            method: &lt;span class=&quot;string&quot;&gt;&#39;post&#39;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;actionscript&quot;&gt;            success: &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;params&quot;&gt;(result)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;              &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(result);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;            &amp;#125;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;actionscript&quot;&gt;            error: &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;params&quot;&gt;(err)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;javascript&quot;&gt;              &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&quot;something error: &quot;&lt;/span&gt; + err);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;            &amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;          &amp;#125;);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;        &amp;#125;)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;    &amp;#125;)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;undefined&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;后端如何接收和处理ajax的post请求&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// router/index.js&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; express = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;express&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; router = express.Router();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 引入数据库模块&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; blogSchema = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;../models/dbs/contents&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/* GET home page. */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;router.get(&lt;span class=&quot;string&quot;&gt;&#39;/&#39;&lt;/span&gt;, &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;req, res, next&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  res.render(&lt;span class=&quot;string&quot;&gt;&#39;index.html&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// post 请求&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;router.post(&lt;span class=&quot;string&quot;&gt;&#39;/&#39;&lt;/span&gt;,&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;req,res,next&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;comment&quot;&gt;// 接收和处理post请求&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; blogStatus = &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; blogSchema(&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    title: req.body.title,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    author:req.body.author,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    content:req.body.content,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    date: &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;Date&lt;/span&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  blogSchema.collection.insert(blogStatus,&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;err,result&lt;/span&gt;)&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(err)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&quot;insert error: &quot;&lt;/span&gt;+ err);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&quot;insert success: &quot;&lt;/span&gt;+result);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      res.send(result);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;      &lt;span class=&quot;comment&quot;&gt;//res.location(&#39;/allblogs&#39;);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;module&lt;/span&gt;.exports = router;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;好的，现在让我们来启动项目，看看效果。&lt;/p&gt;
+&lt;figure class=&quot;highlight livecodeserver&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 首先启动mongodb服务&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sudo systemctl &lt;span class=&quot;built_in&quot;&gt;start&lt;/span&gt; mongod&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 输入密码&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;node ./bin/www&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;(node:&lt;span class=&quot;number&quot;&gt;5289&lt;/span&gt;) DeprecationWarning: `&lt;span class=&quot;built_in&quot;&gt;open&lt;/span&gt;()` is deprecated &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; mongoose &amp;gt;= &lt;span class=&quot;number&quot;&gt;4.11&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt;, use `openUri&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;()` instead, &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;the&lt;/span&gt; `useMongoClient` option &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;using&lt;/span&gt; `connect()` &lt;span class=&quot;keyword&quot;&gt;or&lt;/span&gt; `createConnection(&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;)`. See &lt;span class=&quot;keyword&quot;&gt;http&lt;/span&gt;://mongoosejs.com/docs/connections.html&lt;span class=&quot;comment&quot;&gt;#use-mongo-client&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Db.prototype.authenticate method will no longer be available &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;the&lt;/span&gt; next major release &lt;span class=&quot;number&quot;&gt;3.&lt;/span&gt;x&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; MongoDB &lt;span class=&quot;number&quot;&gt;3.6&lt;/span&gt; will only allow auth against users &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;the&lt;/span&gt; admin db &lt;span class=&quot;keyword&quot;&gt;and&lt;/span&gt; will no longer allo&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;w multiple credentials &lt;span class=&quot;keyword&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;socket&lt;/span&gt;. &lt;span class=&quot;title&quot;&gt;Please&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;authenticate&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;MongoClient&lt;/span&gt;.&lt;span class=&quot;title&quot;&gt;connect&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;aut&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;h credentials.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Mongoose connect mongodb://bloger:bloger@&lt;span class=&quot;number&quot;&gt;127.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.0&lt;/span&gt;&lt;span class=&quot;number&quot;&gt;.1&lt;/span&gt;:&lt;span class=&quot;number&quot;&gt;27017&lt;/span&gt;/blog success&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;打开浏览器，访问：&lt;a&gt;localhost:3000&lt;/a&gt; 或者 &lt;a&gt;127.0.0.1：3000&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Klay-Clam/Klay-Clam.github.io/master/img/nodeajaxruntime.png&quot; alt=&quot;dome&quot;&gt;
+    
+    </summary>
+    
+      <category term="node" scheme="http://yoursite.com/categories/node/"/>
+    
+    
+      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+    
+      <category term="express" scheme="http://yoursite.com/tags/express/"/>
+    
+      <category term="ajax" scheme="http://yoursite.com/tags/ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MongoDB--用户管理以及数据库远程连接设置</title>
+    <link href="http://yoursite.com/2017/07/27/MongoDb-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%E4%BB%A5%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://yoursite.com/2017/07/27/MongoDb-用户管理以及数据库远程连接设置/</id>
+    <published>2017-07-27T12:36:16.000Z</published>
+    <updated>2017-10-22T07:01:06.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;首先要说明的一点是：在写这篇文章之前我还没有使用MongoDB数据库的图形化工具，因此所有的配置都是一步一步在命令行中做的，感觉贼爽呃～好的，今天记录一下这几天配置MongoDB的一些知识点，免得自己弱智以后忘了。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MongoDB" scheme="http://yoursite.com/tags/MongoDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MongoDB 学习笔记-Windows下的安装配置</title>
+    <link href="http://yoursite.com/2017/07/26/MongoDB/"/>
+    <id>http://yoursite.com/2017/07/26/MongoDB/</id>
+    <published>2017-07-26T14:11:58.000Z</published>
+    <updated>2017-10-22T07:01:11.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装文件的下载&quot;&gt;&lt;a href=&quot;#安装文件的下载&quot; class=&quot;headerlink&quot; title=&quot;安装文件的下载&quot;&gt;&lt;/a&gt;安装文件的下载&lt;/h2&gt;&lt;p&gt;官网提供了多种版本的安装包，主要就是 &lt;code&gt;.msi&lt;/code&gt; 文件或者 &lt;code&gt;.zip&lt;/code&gt; 文件。我是使用&lt;code&gt;.msi&lt;/code&gt;安装的，&lt;code&gt;.zip&lt;/code&gt;的安装大同小异，重点在配置。&lt;br&gt;&lt;br&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="MongoDB" scheme="http://yoursite.com/tags/MongoDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>web前端面试基础知识总结（逐步完善）</title>
+    <link href="http://yoursite.com/2017/03/18/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93%EF%BC%88%E9%80%90%E6%AD%A5%E5%AE%8C%E5%96%84%EF%BC%89/"/>
+    <id>http://yoursite.com/2017/03/18/web前端面试基础知识总结（逐步完善）/</id>
+    <published>2017-03-18T08:19:58.000Z</published>
+    <updated>2017-10-22T07:02:19.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;HTML及其他：&quot;&gt;&lt;a href=&quot;#HTML及其他：&quot; class=&quot;headerlink&quot; title=&quot;HTML及其他：&quot;&gt;&lt;/a&gt;HTML及其他：&lt;/h2&gt;&lt;h3 id=&quot;1-HTML行内元素：&quot;&gt;&lt;a href=&quot;#1-HTML行内元素：&quot; class=&quot;headerlink&quot; title=&quot;1. HTML行内元素：&quot;&gt;&lt;/a&gt;1. HTML行内元素：&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;不必换行必须设置的项：&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;word-break&lt;/li&gt;
+&lt;li&gt;white-space
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+  </entry>
+  
+</feed>
