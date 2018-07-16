@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Klay-Clam&#39;s Blog</title>
+  <title>拖泥脑湿的博客</title>
   
   <subtitle>Basketball career have scrapped and wanna to be a Full Stack Developer</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-07T15:12:50.000Z</updated>
+  <updated>2018-07-16T14:46:14.058Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,68 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CodeWars 使用记录（一）</title>
+    <link href="http://yoursite.com/2018/07/16/codewars-first/"/>
+    <id>http://yoursite.com/2018/07/16/codewars-first/</id>
+    <published>2018-07-16T14:18:16.000Z</published>
+    <updated>2018-07-16T14:46:14.058Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;这两天在网上发现了&lt;a href=&quot;https://www.codewars.com/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+      <category term="accum" scheme="http://yoursite.com/tags/accum/"/>
+    
+      <category term="bit count" scheme="http://yoursite.com/tags/bit-count/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>拖泥脑湿的2018年中总结</title>
+    <link href="http://yoursite.com/2018/07/13/2018%E5%B9%B4%E4%B8%AD%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2018/07/13/2018年中总结/</id>
+    <published>2018-07-13T13:17:09.000Z</published>
+    <updated>2018-07-16T14:14:44.171Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;转眼就是下半年了，回头看看年初自己写的blog，很多计划现在还没开始执行。长大之后时间过得飞快。&lt;/p&gt;
+&lt;p&gt;上半年的一半时间在上海，还有好多一部分在武汉学校，在家也待了一段时间。&lt;/p&gt;
+&lt;p&gt;今年也从学校毕业了，会学校的一段时间，到处飘着某某同学的高薪消息。只能羡慕哈
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="年中总结" scheme="http://yoursite.com/tags/%E5%B9%B4%E4%B8%AD%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2018年我会更好吗</title>
     <link href="http://yoursite.com/2018/01/07/2018-projection/"/>
     <id>http://yoursite.com/2018/01/07/2018-projection/</id>
     <published>2018-01-07T15:09:17.000Z</published>
-    <updated>2018-01-07T15:12:50.000Z</updated>
+    <updated>2018-07-16T14:16:17.348Z</updated>
     
     <summary type="html">
     
@@ -29,6 +86,10 @@
     
     </summary>
     
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="计划" scheme="http://yoursite.com/tags/%E8%AE%A1%E5%88%92/"/>
     
   </entry>
   
@@ -37,7 +98,7 @@
     <link href="http://yoursite.com/2017/12/30/2017-summary/"/>
     <id>http://yoursite.com/2017/12/30/2017-summary/</id>
     <published>2017-12-30T14:49:10.000Z</published>
-    <updated>2018-01-07T15:08:15.000Z</updated>
+    <updated>2018-07-16T14:15:57.568Z</updated>
     
     <summary type="html">
     
@@ -45,6 +106,10 @@
     
     </summary>
     
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="年度总结" scheme="http://yoursite.com/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
@@ -483,48 +548,6 @@
     
     
       <category term="MongoDB" scheme="http://yoursite.com/tags/MongoDB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>web前端面试基础知识总结（逐步完善）</title>
-    <link href="http://yoursite.com/2017/03/18/web%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93%EF%BC%88%E9%80%90%E6%AD%A5%E5%AE%8C%E5%96%84%EF%BC%89/"/>
-    <id>http://yoursite.com/2017/03/18/web前端面试基础知识总结（逐步完善）/</id>
-    <published>2017-03-18T08:19:58.000Z</published>
-    <updated>2017-10-22T07:02:19.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;HTML及其他：&quot;&gt;&lt;a href=&quot;#HTML及其他：&quot; class=&quot;headerlink&quot; title=&quot;HTML及其他：&quot;&gt;&lt;/a&gt;HTML及其他：&lt;/h2&gt;&lt;h3 id=&quot;1-HTML行内元素：&quot;&gt;&lt;a href=&quot;#1-HTML行内元素：&quot; class=&quot;headerlink&quot; title=&quot;1. HTML行内元素：&quot;&gt;&lt;/a&gt;1. HTML行内元素：&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;不必换行必须设置的项：&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;word-break&lt;/li&gt;
-&lt;li&gt;white-space
-    
-    </summary>
-    
-      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>backbone源码分析（二）- backbone实例todos分析</title>
-    <link href="http://yoursite.com/2016/10/22/backbone%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%EF%BC%88%E4%BA%8C%EF%BC%89-backbone%E5%AE%9E%E4%BE%8Btodos%E5%88%86%E6%9E%90%EF%BC%881%EF%BC%89/"/>
-    <id>http://yoursite.com/2016/10/22/backbone源码分析（二）-backbone实例todos分析（1）/</id>
-    <published>2016-10-22T05:18:57.000Z</published>
-    <updated>2017-10-22T07:00:10.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在此之前，将backbone.js的内容简要的过了一遍，为了更好的理解backbone.js，现在对backbone官方给出的todos小应用进行分析。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
-    
-    
-      <category term="backbone.js" scheme="http://yoursite.com/tags/backbone-js/"/>
     
   </entry>
   
