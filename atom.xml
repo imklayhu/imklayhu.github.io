@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-16T14:46:14.058Z</updated>
+  <updated>2018-07-26T15:49:55.261Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发</title>
+    <link href="http://yoursite.com/2018/07/26/sinopia%E6%90%AD%E5%BB%BA%E5%86%85%E9%83%A8npm%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://yoursite.com/2018/07/26/sinopia搭建内部npm服务/</id>
+    <published>2018-07-26T15:43:56.000Z</published>
+    <updated>2018-07-26T15:49:55.261Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;sinopia搭建内部npm&quot;&gt;&lt;a href=&quot;#sinopia搭建内部npm&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="node" scheme="http://yoursite.com/categories/node/"/>
+    
+    
+      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+    
+      <category term="sinopia" scheme="http://yoursite.com/tags/sinopia/"/>
+    
+  </entry>
   
   <entry>
     <title>CodeWars 使用记录（一）</title>
@@ -50,7 +78,7 @@
     <link href="http://yoursite.com/2018/07/13/2018%E5%B9%B4%E4%B8%AD%E6%80%BB%E7%BB%93/"/>
     <id>http://yoursite.com/2018/07/13/2018年中总结/</id>
     <published>2018-07-13T13:17:09.000Z</published>
-    <updated>2018-07-16T14:14:44.171Z</updated>
+    <updated>2018-07-16T14:47:27.096Z</updated>
     
     <summary type="html">
     
@@ -521,26 +549,6 @@
     
       &lt;blockquote&gt;
 &lt;p&gt;首先要说明的一点是：在写这篇文章之前我还没有使用MongoDB数据库的图形化工具，因此所有的配置都是一步一步在命令行中做的，感觉贼爽呃～好的，今天记录一下这几天配置MongoDB的一些知识点，免得自己弱智以后忘了。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-      <category term="MongoDB" scheme="http://yoursite.com/tags/MongoDB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MongoDB 学习笔记-Windows下的安装配置</title>
-    <link href="http://yoursite.com/2017/07/26/MongoDB/"/>
-    <id>http://yoursite.com/2017/07/26/MongoDB/</id>
-    <published>2017-07-26T14:11:58.000Z</published>
-    <updated>2017-10-22T07:01:11.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;安装文件的下载&quot;&gt;&lt;a href=&quot;#安装文件的下载&quot; class=&quot;headerlink&quot; title=&quot;安装文件的下载&quot;&gt;&lt;/a&gt;安装文件的下载&lt;/h2&gt;&lt;p&gt;官网提供了多种版本的安装包，主要就是 &lt;code&gt;.msi&lt;/code&gt; 文件或者 &lt;code&gt;.zip&lt;/code&gt; 文件。我是使用&lt;code&gt;.msi&lt;/code&gt;安装的，&lt;code&gt;.zip&lt;/code&gt;的安装大同小异，重点在配置。&lt;br&gt;&lt;br&gt;&lt;br&gt;
     
     </summary>
     
