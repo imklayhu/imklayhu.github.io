@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-26T15:49:55.261Z</updated>
+  <updated>2019-02-28T13:03:45.599Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>测试新建文档</title>
+    <link href="http://yoursite.com/2019/02/28/%E6%B5%8B%E8%AF%95%E6%96%B0%E5%BB%BA%E6%96%87%E6%A1%A3/"/>
+    <id>http://yoursite.com/2019/02/28/测试新建文档/</id>
+    <published>2019-02-28T13:00:52.000Z</published>
+    <updated>2019-02-28T13:03:45.599Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;测试新建文档&quot;&gt;&lt;a href=&quot;#测试新建文档&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="test" scheme="http://yoursite.com/tags/test/"/>
+    
+      <category term="test2" scheme="http://yoursite.com/tags/test2/"/>
+    
+      <category term="-test3" scheme="http://yoursite.com/tags/test3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发</title>
     <link href="http://yoursite.com/2018/07/26/sinopia%E6%90%AD%E5%BB%BA%E5%86%85%E9%83%A8npm%E6%9C%8D%E5%8A%A1/"/>
     <id>http://yoursite.com/2018/07/26/sinopia搭建内部npm服务/</id>
     <published>2018-07-26T15:43:56.000Z</published>
-    <updated>2018-07-26T15:49:55.261Z</updated>
+    <updated>2018-07-26T15:50:48.280Z</updated>
     
     <summary type="html">
     
@@ -535,27 +565,6 @@
       <category term="express" scheme="http://yoursite.com/tags/express/"/>
     
       <category term="ajax" scheme="http://yoursite.com/tags/ajax/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MongoDB--用户管理以及数据库远程连接设置</title>
-    <link href="http://yoursite.com/2017/07/27/MongoDb-%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86%E4%BB%A5%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E8%AE%BE%E7%BD%AE/"/>
-    <id>http://yoursite.com/2017/07/27/MongoDb-用户管理以及数据库远程连接设置/</id>
-    <published>2017-07-27T12:36:16.000Z</published>
-    <updated>2017-10-22T07:01:06.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;首先要说明的一点是：在写这篇文章之前我还没有使用MongoDB数据库的图形化工具，因此所有的配置都是一步一步在命令行中做的，感觉贼爽呃～好的，今天记录一下这几天配置MongoDB的一些知识点，免得自己弱智以后忘了。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    
-      <category term="MongoDB" scheme="http://yoursite.com/tags/MongoDB/"/>
     
   </entry>
   
