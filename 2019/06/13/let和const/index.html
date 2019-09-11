@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Klay-Clam"><title>ES6-let/const · 拖泥脑湿的博客</title><meta name="description" content="let命令声明的变量，只在let命令所在的代码块内有效。
+for 循环 的计数器，很合适使用let命令。
+12345for(let i = 0;i &amp;lt; 10; i++)&amp;#123;	//...&amp;#125;console.log(i)
+上面的代码中计数器i只在for 循环内有效。
+
+for循环的"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"></head><body><div id="stage" class="container"><div class="row"><div id="side-bar" class="col-sm-3 col-xs-12 side-container invisible"><div class="vertical-text site-title"><h3 tabindex="-1" class="site-title-small"><a href="/" class="a-title">Tony's Notebook</a></h3><h1 tabindex="-1" class="site-title-large"><a href="/" class="a-title">拖泥脑湿的手账</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div id="site-nav" class="site-title-links"><ul><li><a href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/categories">Categories</a></li><li><a href="/tags">Tags</a></li><li class="soc"><a href="https://github.com/Klay-Clam" target="_blank" rel="noopener noreferrer"><i class="fa fa-github">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2019&nbsp;<a target="_blank" href="http://yoursite.com" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div id="main-container" class="col-sm-9 col-xs-12 main-container invisible"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>ES6-let/const</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2019-06-13</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a href="/categories/JavaScript/" title="JavaScript" class="a-tag">JavaScript</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a href="/tags/ES6/" title="ES6" class="a-tag">ES6</a><span>&nbsp;</span><a href="/tags/let/" title="let" class="a-tag">let</a><span>&nbsp;</span><a href="/tags/const/" title="const" class="a-tag">const</a><span>&nbsp;</span></span></p><p class="post-abstract"><h3 id="let命令"><a href="#let命令" class="headerlink" title="let命令"></a>let命令</h3><p>声明的变量，只在<code>let</code>命令所在的代码块内有效。</p>
+<p>for 循环 的计数器，很合适使用let命令。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>;i &lt; <span class="number">10</span>; i++)&#123;</span><br><span class="line">	<span class="comment">//...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(i)</span><br></pre></td></tr></table></figure>
+<p>上面的代码中计数器i只在for 循环内有效。</p>
+<blockquote>
+<p>for循环的一个特别之处，就是设置循环变量的那部分是一个父作用域，而循环体内部是一个单独的子作用域。</p>
+</blockquote>
+<h4 id="不存在变量提升"><a href="#不存在变量提升" class="headerlink" title="不存在变量提升"></a>不存在变量提升</h4><p>var命令会发生变量提升现象，即变量可以在声明之前使用，值为undefined。</p>
+<p>let命令改变了语法行为，他所声明的变量一低昂要在声明之后使用，否则报错。</p>
+<h4 id="暂时性死区"><a href="#暂时性死区" class="headerlink" title="暂时性死区"></a>暂时性死区</h4><p>ES6明确规定，如果区块中存在let和const命令，这个区块对这些命令声明的变量，从一开始就形成了封闭作用域。凡是在声明之前就使用这些变量，就会报错。</p>
+<p>总之，在代码块内，使用let命令声明变量值钱，该变量都是不可用的。这在语法上，称为暂时性死区。</p>
+<p>暂时性死区也意味着typeof不再是一个百分之百的安全操作。</p>
+<h4 id="不允许重复声明"><a href="#不允许重复声明" class="headerlink" title="不允许重复声明"></a>不允许重复声明</h4><p>不允许在相同的作用域内，重复声明同一个变量。</p>
+<h3 id="块级作用域"><a href="#块级作用域" class="headerlink" title="块级作用域"></a>块级作用域</h3><h4 id="为什么需要块级作用域"><a href="#为什么需要块级作用域" class="headerlink" title="为什么需要块级作用域"></a>为什么需要块级作用域</h4><p>ES5只有全局作用域和函数作用域：</p>
+<ol>
+<li>内层变量可能会覆盖外层变量</li>
+<li>用来计数的循环变量泄露为全局变量</li>
+</ol>
+<h4 id="ES6的块级作用域"><a href="#ES6的块级作用域" class="headerlink" title="ES6的块级作用域"></a>ES6的块级作用域</h4><p>let实际上为JavaScript增加了块级作用域</p>
+<p>外层代码块不受内层代码块的影响</p>
+<p>ES6允许块级作用域的人已嵌套</p>
+<h4 id="块级作用域与函数声明"><a href="#块级作用域与函数声明" class="headerlink" title="块级作用域与函数声明"></a>块级作用域与函数声明</h4><p>ES6规定，块级作用域之中，函数生命语句的行为类似于let，在块级作用域之外不可引用。</p>
+<p>ES6块级作用域必须在大括号内部，没有大括号js认为不存在块级作用域。</p>
+<p>###const 命令</p>
+<p>const声明一个只读的常量。一旦声明，常量的值就不能改变。</p>
+<p>const声明的变量不得改变值，这意味着，const一旦声明变量，就必须立即初始化，不能留到以后赋值。</p>
+<p>const的作用域与let相同：只在声明所在的块级作用域内有效。</p>
+<p>const常量不提升，同样存在暂时性死区。只能在声明的位置后面使用。</p>
+<p>const声明的常量与let一样不可以重复声明</p>
+<h4 id="本质"><a href="#本质" class="headerlink" title="本质"></a>本质</h4><p>const 实际上保证的，并不是变量的值不得改动，而是变量指向的那个内存地址所保存的数据不得改动。对于简单类型的数据(数值、字符串、布尔值)，值就保存在变量之乡的那个内存地址，因此等同于常量。但是对于符合类型的数据(对象和数组)，变量之乡的内存地址，存的只是一个指向实际数据的指针，const只能保证这个指针是固定的(即总是指向另一个固定的地址)，至于呀指向的数据结构是不是可变的，就完全不能控制了。</p>
+<p>因此，将一个对象声明为常量必须非常小心。</p>
+<h3 id="顶层对象的属性"><a href="#顶层对象的属性" class="headerlink" title="顶层对象的属性"></a>顶层对象的属性</h3><p>浏览器环境：window</p>
+<p>Node环境： global</p>
+<p>var和function声明的全局变量，依旧是顶层对象的属性。</p>
+<p>let、const、class声明的全局变量，不属于顶层对象的属性。</p>
+<h3 id="globalThis-对象"><a href="#globalThis-对象" class="headerlink" title="globalThis 对象"></a>globalThis 对象</h3><p>同一段代码为了能够在各种环境，都能取到顶层对象，现在一般是使用this变量，但是有局限性。</p>
+<ul>
+<li>全局环境中，this会返回顶层对象。但是，Node模块和ES6模块中，this返回的是当前模块。</li>
+<li>函数里面的this，如果函数不是作为对象的方法运行，而是单纯作为函数运行，this会指向顶层对象。但是严格模式下，this会返回undefined</li>
+<li>不管是严格模式还是普通模式，<code>new Function(&#39;return this()&#39;)</code>总是会返回全局对象。但是如果浏览器用了CSP(Content Security Policy，内容安全策略)，那么<code>eval</code>，<code>new Function</code>这些方法都可能无法使用</li>
+</ul>
+</p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank" class="fa fa-bookmark"></a></span><span class="soc"><a href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));" class="fa fa-weibo"></a></span><span class="soc"><a href="http://twitter.com/home?status=http://yoursite.com/2019/06/13/let和const/%20拖泥脑湿的博客%20ES6-let/const" class="fa fa-twitter"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2019/07/13/es6笔记/" title="ES6笔记📒"><i class="fa fa-angle-double-left"></i>&nbsp;Previous post: ES6笔记📒</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2018/07/26/sinopia搭建内部npm服务/" title="sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发">Next post: sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2019&nbsp;<a target="_blank" href="http://yoursite.com" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>
