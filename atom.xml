@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-11T06:42:18.403Z</updated>
+  <updated>2019-09-17T07:04:06.748Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端面试常用的简单排序算法</title>
+    <link href="http://yoursite.com/2019/09/10/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9A%84%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/"/>
+    <id>http://yoursite.com/2019/09/10/前端常用的简单算法/</id>
+    <published>2019-09-10T14:07:01.000Z</published>
+    <updated>2019-09-17T07:04:06.748Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;冒泡排序&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;原理：每一次对比相邻两个数据的大小，按照升序/降序进行位置的交换&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/categories/JavaScript/"/>
+    
+    
+      <category term="Javascript" scheme="http://yoursite.com/tags/Javascript/"/>
+    
+      <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>ES6笔记📒</title>
@@ -462,33 +494,6 @@
     
     
       <category term="Plan" scheme="http://yoursite.com/tags/Plan/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过edge.js调用C# 动态链接库 dll，我踩踩坑什么的</title>
-    <link href="http://yoursite.com/2017/08/10/nodeedgecsharp/"/>
-    <id>http://yoursite.com/2017/08/10/nodeedgecsharp/</id>
-    <published>2017-08-10T13:38:35.000Z</published>
-    <updated>2017-10-22T07:01:34.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;使用edge.js调用.dll文件 第二次补充：&lt;br&gt;edgejs按我个人理解，是一个允许通过Node去调用 C# 的一个库。因为最近的项目需要才接触的。具体参考&lt;a href=&quot;https://github.com/tjanczuk/edge&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这里[edge.js Github]&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&quot;使用npm-init初始化项目，安装依赖edge-npm-install-gd-edge&quot;&gt;&lt;a href=&quot;#使用npm-init初始化项目，安装依赖edge-npm-install-gd-edge&quot; class=&quot;headerlink&quot; title=&quot;使用npm init初始化项目，安装依赖edge,npm install -gd edge.&quot;&gt;&lt;/a&gt;使用npm init初始化项目，安装依赖edge,npm install -gd edge.&lt;/h4&gt;&lt;h4 id=&quot;C-代码，经过编译之后生成了print-dll文件&quot;&gt;&lt;a href=&quot;#C-代码，经过编译之后生成了print-dll文件&quot; class=&quot;headerlink&quot; title=&quot;C#代码，经过编译之后生成了print.dll文件&quot;&gt;&lt;/a&gt;C#代码，经过编译之后生成了print.dll文件&lt;/h4&gt;
-    
-    </summary>
-    
-      <category term="node" scheme="http://yoursite.com/categories/node/"/>
-    
-    
-      <category term="node" scheme="http://yoursite.com/tags/node/"/>
-    
-      <category term="edge.js" scheme="http://yoursite.com/tags/edge-js/"/>
-    
-      <category term="C#" scheme="http://yoursite.com/tags/C/"/>
     
   </entry>
   
