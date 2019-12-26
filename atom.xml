@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-26T01:47:02.085Z</updated>
+  <updated>2019-12-26T01:50:49.893Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/12/25/copy-from-baidu/"/>
     <id>http://yoursite.com/2019/12/25/copy-from-baidu/</id>
     <published>2019-12-25T14:18:59.000Z</published>
-    <updated>2019-12-26T01:47:02.085Z</updated>
+    <updated>2019-12-26T01:50:49.893Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;面向百度-代指搜索引擎-编程的朋友&quot;&gt;&lt;a href=&quot;#面向百度-代指搜索引擎-编程的朋友&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;今天在家的时候，还在公司加班的另一位前端同学微信找我，问我为什么&lt;code&gt;wx.navigateTo({url:&amp;#39;pages/index/index&amp;#39;})&lt;/code&gt;不能跳转到首页了。其实这使得我当时有点愤怒，一者是在我休息时间找到我，不过自从进入这家公
         
       
     
