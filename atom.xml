@@ -97,6 +97,31 @@
   </entry>
   
   <entry>
+    <title>微信小程序 wx.setTabBarItem()需要注意的地方</title>
+    <link href="http://yoursite.com/2019/09/18/wechat-miniprogram-tabbaritem/"/>
+    <id>http://yoursite.com/2019/09/18/wechat-miniprogram-tabbaritem/</id>
+    <published>2019-09-18T08:19:58.000Z</published>
+    <updated>2019-12-26T01:57:20.783Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;官方的文档没有提到，这个api是需要在tabbar页面调用的，在非tabbar页面调用的时候，会报错.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>前端面试常用的简单排序算法</title>
     <link href="http://yoursite.com/2019/09/10/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9A%84%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/"/>
     <id>http://yoursite.com/2019/09/10/前端常用的简单算法/</id>
@@ -488,26 +513,6 @@
     
     
       <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>javascript 实现二分查找</title>
-    <link href="http://yoursite.com/2017/09/06/javascript-%E5%AE%9E%E7%8E%B0%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
-    <id>http://yoursite.com/2017/09/06/javascript-实现二分查找/</id>
-    <published>2017-09-06T12:15:40.000Z</published>
-    <updated>2017-10-22T07:00:42.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;直接上代码：&quot;&gt;&lt;a href=&quot;#直接上代码：&quot; class=&quot;headerlink&quot; title=&quot;直接上代码：&quot;&gt;&lt;/a&gt;直接上代码：&lt;/h3&gt;
-    
-    </summary>
-    
-      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
-    
-    
-      <category term="Binary-Search" scheme="http://yoursite.com/tags/Binary-Search/"/>
     
   </entry>
   
