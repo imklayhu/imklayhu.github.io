@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-31T08:21:29.790Z</updated>
+  <updated>2020-01-02T04:42:58.820Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019:我这一年</title>
+    <link href="http://yoursite.com/2020/01/02/2019-of-mine/"/>
+    <id>http://yoursite.com/2020/01/02/2019-of-mine/</id>
+    <published>2020-01-02T14:49:10.000Z</published>
+    <updated>2020-01-02T04:42:58.820Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2020年的第一天，早起拍小区旁河边的日出。看着城市在黑暗中慢慢苏醒，到早晨的太阳洒满街道的一个多小时中，脑海里面慢慢闪现出自己过去一年的诸多画面。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="年度总结" scheme="http://yoursite.com/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>关于返回数组元素平方的一道面试题</title>
@@ -490,29 +510,6 @@
 &lt;p&gt;面试时间：2017.10.09。现在还没有收到最终的答复，应该是挂了。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;一、面试过程&quot;&gt;&lt;a href=&quot;#一、面试过程&quot; class=&quot;headerlink&quot; title=&quot;一、面试过程&quot;&gt;&lt;/a&gt;一、面试过程&lt;/h2&gt;&lt;h3 id=&quot;1-去公司和第一印象&quot;&gt;&lt;a href=&quot;#1-去公司和第一印象&quot; class=&quot;headerlink&quot; title=&quot;1. 去公司和第一印象&quot;&gt;&lt;/a&gt;1. 去公司和第一印象&lt;/h3&gt;&lt;p&gt;约定的时间实在下午三点，我快三点的时候到的。公司的周围环境看起来一般，进到他们软件园觉得还挺好看的?他们公司在一个角落，有门禁进不去，就在门口给hr打电话，出来之后领着我去了隔壁的隔壁的意见办公室，有三个小姐姐在办公，里面有一个玻璃房，看起来是一个休息的地方，桌子上emm油腻腻的，大概是中午吃的饭掉桌子上了。然后hr就说等她一下。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="面试" scheme="http://yoursite.com/categories/%E9%9D%A2%E8%AF%95/"/>
-    
-    
-      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>厦门美团前端面试（电话面试一面&amp;电话面试二面）</title>
-    <link href="http://yoursite.com/2017/10/13/%E5%8E%A6%E9%97%A8%E7%BE%8E%E5%9B%A2%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%EF%BC%88%E7%94%B5%E8%AF%9D%E9%9D%A2%E8%AF%95%E4%B8%80%E9%9D%A2%EF%BC%89/"/>
-    <id>http://yoursite.com/2017/10/13/厦门美团前端面试（电话面试一面）/</id>
-    <published>2017-10-13T13:17:09.000Z</published>
-    <updated>2017-10-23T12:54:34.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;面试时间：9.26下午，过程大约接近40分钟&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;一、面试过程&quot;&gt;&lt;a href=&quot;#一、面试过程&quot; class=&quot;headerlink&quot; title=&quot;一、面试过程&quot;&gt;&lt;/a&gt;一、面试过程&lt;/h2&gt;&lt;h3 id=&quot;1-自我介绍&quot;&gt;&lt;a href=&quot;#1-自我介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 自我介绍&quot;&gt;&lt;/a&gt;1. 自我介绍&lt;/h3&gt;&lt;h3 id=&quot;2-介绍项目，实习的业务逻辑&quot;&gt;&lt;a href=&quot;#2-介绍项目，实习的业务逻辑&quot; class=&quot;headerlink&quot; title=&quot;2. 介绍项目，实习的业务逻辑&quot;&gt;&lt;/a&gt;2. 介绍项目，实习的业务逻辑&lt;/h3&gt;&lt;h3 id=&quot;3-针对简历中的MongoDB的连接池的问题&quot;&gt;&lt;a href=&quot;#3-针对简历中的MongoDB的连接池的问题&quot; class=&quot;headerlink&quot; title=&quot;3. 针对简历中的MongoDB的连接池的问题&quot;&gt;&lt;/a&gt;3. 针对简历中的MongoDB的连接池的问题&lt;/h3&gt;&lt;h3 id=&quot;4-模块化开发&quot;&gt;&lt;a href=&quot;#4-模块化开发&quot; class=&quot;headerlink&quot; title=&quot;4. 模块化开发&quot;&gt;&lt;/a&gt;4. 模块化开发&lt;/h3&gt;
     
     </summary>
     
