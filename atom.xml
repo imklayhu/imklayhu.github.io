@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-01-02T04:42:58.820Z</updated>
+  <updated>2020-01-03T03:12:02.208Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CodeWars 学习记录（二）</title>
+    <link href="http://yoursite.com/2020/01/03/CodeWars-2/"/>
+    <id>http://yoursite.com/2020/01/03/CodeWars-2/</id>
+    <published>2020-01-03T14:18:16.000Z</published>
+    <updated>2020-01-03T03:12:02.208Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;CamelCase-Method&quot;&gt;&lt;a href=&quot;#CamelCase-Method&quot; class=&quot;headerlink&quot; title=&quot;CamelCase Method&quot;&gt;&lt;/a&gt;CamelCase Method&lt;/h3&gt;&lt;p&gt;Write simple
+        
+      
+    
+    </summary>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/categories/JavaScript/"/>
+    
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>2019:我这一年</title>
@@ -33,6 +59,20 @@
     
     
       <category term="年度总结" scheme="http://yoursite.com/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2020/01/02/Untitled/"/>
+    <id>http://yoursite.com/2020/01/02/Untitled/</id>
+    <published>2020-01-02T07:50:39.647Z</published>
+    <updated>2020-01-02T07:50:39.647Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
     
   </entry>
   
@@ -467,56 +507,6 @@
       <category term="闭包" scheme="http://yoursite.com/tags/%E9%97%AD%E5%8C%85/"/>
     
       <category term="作用域" scheme="http://yoursite.com/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript 中的call(),apply()和bind()</title>
-    <link href="http://yoursite.com/2017/10/16/callapplybind/"/>
-    <id>http://yoursite.com/2017/10/16/callapplybind/</id>
-    <published>2017-10-16T11:38:17.000Z</published>
-    <updated>2017-10-22T07:00:28.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;一、细节&quot;&gt;&lt;a href=&quot;#一、细节&quot; class=&quot;headerlink&quot; title=&quot;一、细节&quot;&gt;&lt;/a&gt;一、细节&lt;/h2&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;javascript 中函数存在“定义时上下文”，“运行时上下文”&lt;/li&gt;
-&lt;li&gt;上下文是可变的
-    
-    </summary>
-    
-      <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
-    
-    
-      <category term="call" scheme="http://yoursite.com/tags/call/"/>
-    
-      <category term="apply" scheme="http://yoursite.com/tags/apply/"/>
-    
-      <category term="bind" scheme="http://yoursite.com/tags/bind/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>上海某电商公司前端实习面试</title>
-    <link href="http://yoursite.com/2017/10/14/%E4%B8%8A%E6%B5%B7%E6%9F%90%E7%94%B5%E5%95%86%E5%85%AC%E5%8F%B8%E5%89%8D%E7%AB%AF%E5%AE%9E%E4%B9%A0%E9%9D%A2%E8%AF%95/"/>
-    <id>http://yoursite.com/2017/10/14/上海某电商公司前端实习面试/</id>
-    <published>2017-10-14T05:18:27.000Z</published>
-    <updated>2017-10-22T06:59:48.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;面试时间：2017.10.09。现在还没有收到最终的答复，应该是挂了。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;一、面试过程&quot;&gt;&lt;a href=&quot;#一、面试过程&quot; class=&quot;headerlink&quot; title=&quot;一、面试过程&quot;&gt;&lt;/a&gt;一、面试过程&lt;/h2&gt;&lt;h3 id=&quot;1-去公司和第一印象&quot;&gt;&lt;a href=&quot;#1-去公司和第一印象&quot; class=&quot;headerlink&quot; title=&quot;1. 去公司和第一印象&quot;&gt;&lt;/a&gt;1. 去公司和第一印象&lt;/h3&gt;&lt;p&gt;约定的时间实在下午三点，我快三点的时候到的。公司的周围环境看起来一般，进到他们软件园觉得还挺好看的?他们公司在一个角落，有门禁进不去，就在门口给hr打电话，出来之后领着我去了隔壁的隔壁的意见办公室，有三个小姐姐在办公，里面有一个玻璃房，看起来是一个休息的地方，桌子上emm油腻腻的，大概是中午吃的饭掉桌子上了。然后hr就说等她一下。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="面试" scheme="http://yoursite.com/categories/%E9%9D%A2%E8%AF%95/"/>
-    
-    
-      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
     
   </entry>
   
