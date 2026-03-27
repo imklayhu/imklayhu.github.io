@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发 · 拖泥脑湿的博客</title><meta name="description" content="sinopia搭建内部npm服务器：CentOS 7原料：安装Node.js,npm
+
+使用npm安装yarn在CentOS使用nvm安装好指定版本的NodeJS之后，使用npm安装yarn模块。使用yarn进行node package的管理。（优势，速度比npm快，install成功率更高）使"><meta name="og:description" content="sinopia搭建内部npm服务器：CentOS 7原料：安装Node.js,npm
+
+使用npm安装yarn在CentOS使用nvm安装好指定版本的NodeJS之后，使用npm安装yarn模块。使用yarn进行node package的管理。（优势，速度比npm快，install成功率更高）使"><meta name="twitter:site" content="拖泥脑湿的博客"><meta name="twitter:title" content="sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发"><meta name="twitter:card" content="summary"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Klay's Notebook</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">阿胡的的流水账</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/categories">Categories</a></li><li><a href="/tags">Tags</a></li><li class="soc"><a href="https://github.com/Klay-Clam" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa fa-github">&nbsp;</i></a><a href="https://zone.ai-dddd.top/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2018-07-26</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/node/" title="node">node</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/npm/" title="npm">npm</a><span>&nbsp;</span><a class="a-tag" href="/tags/sinopia/" title="sinopia">sinopia</a><span>&nbsp;</span></span></p><p class="post-abstract"><p><code>sinopia</code>搭建内部<code>npm</code><br>服务器：CentOS 7原料：安装Node.js,npm</p>
+<ol>
+<li>使用<code>npm</code>安装<code>yarn</code>在CentOS使用nvm安装好指定版本的NodeJS之后，使用npm安装yarn模块。使用yarn进行node package的管理。（优势，速度比npm快，install成功率更高）使用如下命令：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># 全局安装yarnnpm install -g yarn</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>使用<code>yarn</code>安装和配置<code>sinopia</code>全局安装yarn之后，使用yarn全局安装sinopia，运行sinopia。发现未找到sinopia命令。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># 全局安装sinopiayarn global add sinopia# 运行sinopiasinopia# 未找到sinopia命令</span><br></pre></td></tr></table></figure>
+
+<p>需要使用命令<code>yarn global bin</code>查看yarn下载的依赖安装的位置，加入系统的path中。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn global bin# /home/unisolnpmadmin/.yarn/bin# 使用下面的命令把yarn的path加入系统的pathexport PATH=$PATH:/home/unisolnpmadmin/.yarn/bin</span><br></pre></td></tr></table></figure>
+
+<p>配置完成之后，使用sinopia命令启动sinopia服务</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sinopia# warn  --- config file - /home/unisolnpmadmin/.config/sinopia/config.yaml# warn  --- http address - http://localhost:4873/# 打印出来的就是sinopia的配置文件地址和服务启动的端口信息</span><br></pre></td></tr></table></figure>
+
+<p>接下来修改sinopia的配置文件，使得其他的客户端可以访问这个服务。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">## This is the default config file. It allows all users to do anything,# so don&#x27;t use it on production systems.## Look here for more config file examples:# https://github.com/rlidwka/sinopia/tree/master/conf## path to a directory with all packagesstorage: ./storageauth:  htpasswd:    file: ./htpasswd    # Maximum amount of users allowed to register, defaults to &quot;+inf&quot;.    # You can set this to -1 to disable registration.    #max_users: 1000# a list of other known repositories we can talk touplinks:  npmjs:    url: https://registry.npmjs.org/packages:  &#x27;@*/*&#x27;:    # scoped packages    access: $all    publish: $authenticated  &#x27;*&#x27;:    # allow all users (including non-authenticated users) to read and    # publish all packages    #    # you can specify usernames/groupnames (depending on your auth plugin)    # and three keywords: &quot;$all&quot;, &quot;$anonymous&quot;, &quot;$authenticated&quot;    access: $all    # allow all known users to publish packages    # (anyone can register by default, remember?)    publish: $authenticated    # if package is not available locally, proxy requests to &#x27;npmjs&#x27; registry    proxy: npmjs# log settingslogs:  - &#123;type: stdout, format: pretty, level: http&#125;  #- &#123;type: file, path: sinopia.log, level: info&#125;# 这里添加listen，其他的客户端也可以访问该服务。listen: 0.0.0.0:4873</span><br></pre></td></tr></table></figure>
+
+<p>以上的配置修改之后，重新一下sinopia，这时候发现其他的客户端还不能访问这个服务，还需要开放CentOS的防火墙和指定端口。</p>
+<ol start="3">
+<li>开放CentOS的指定端口<br>使用firewalld修改和配置CentOS的防火墙</li>
+</ol>
+<p>1.启动防火墙</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start firewalld</span><br></pre></td></tr></table></figure>
+
+<p>2.禁用防火墙</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br></pre></td></tr></table></figure>
+
+<p>3.设置开机启动</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable firewalld</span><br></pre></td></tr></table></figure>
+
+<p>4.停止并禁用开机启动</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sytemctl disable firewalld</span><br></pre></td></tr></table></figure>
+
+<p>5.重启防火墙</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure>
+
+<p>6.查看状态</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status firewalld或者 firewall-cmd --state</span><br></pre></td></tr></table></figure>
+
+<p>7.查看版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --version</span><br></pre></td></tr></table></figure>
+
+<p>8.查看帮助</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --help</span><br></pre></td></tr></table></figure>
+
+<p>9.查看区域信息</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --get-active-zones</span><br></pre></td></tr></table></figure>
+
+<p>10.查看指定接口所属区域信息</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --get-zone-of-interface=eth0</span><br></pre></td></tr></table></figure>
+
+<p>11.拒绝所有包</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --panic-on</span><br></pre></td></tr></table></figure>
+
+<p>12.取消拒绝状态</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --panic-off</span><br></pre></td></tr></table></figure>
+
+<p>13.查看是否拒绝</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --query-panic</span><br></pre></td></tr></table></figure>
+
+<p>14.将接口添加到区域(默认接口都在public)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-interface=eth0(永久生效再加上 --permanent 然后reload防火墙)</span><br></pre></td></tr></table></figure>
+
+<p>15.设置默认接口区域</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --set-default-zone=public(立即生效，无需重启)</span><br></pre></td></tr></table></figure>
+
+<p>16.更新防火墙规则</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --reload或firewall-cmd --complete-reload(两者的区别就是第一个无需断开连接，就是firewalld特性之一动态添加规则，第二个需要断开连接，类似重启服务)</span><br></pre></td></tr></table></figure>
+
+<p>17.查看指定区域所有打开的端口</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --list-ports</span><br></pre></td></tr></table></figure>
+
+<p>18.在指定区域打开端口（记得重启防火墙）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=80/tcp(永久生效再加上 --permanent)</span><br></pre></td></tr></table></figure>
+
+<p>我们只需要开放端口4873就可以，然后重启防火墙。</p>
+<p>现在我们在客户端访问 <code>http://serverip:4873</code>的时候，就会看到，sinopia已经可以访问了。</p>
+<ol start="4">
+<li>使用<code>pm2</code>保护内部<code>sinopia</code>的进程node的进程很脆弱，所以我们使用pm2保护sinopia的进程。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># 安装pm2yarn global add pm2# 使用pm2启动sinopiapm2 start `which sinopia`</span><br></pre></td></tr></table></figure>
+
+<p>关于pm2，有好多好用的东西，查看服务的日志，查看服务的状态等。有待挖掘。</p>
+<p>至此，sinopia的服务端的配置稍微告一段落，更多个性化的配置，可以在后面添加。接下来介绍一下开发者如何在自己的客户端上使用刚才搭建的sinopia的服务。</p>
+<p>客户端如何使用内部npm进行开发<br>关键字：<code>npm、yarn、nvm、nrm</code></p>
+<ol>
+<li><p>使用<code>npm</code>下载<code>yarn</code>鉴于很多时候，yarn的package的管理效率高于npm，所以我们使用安装yarn下载我们需要的一些包。下载方式前面已经介绍过了，不赘述。</p>
+</li>
+<li><p>使用<code>yarn</code>下载<code>nrm</code>mrn是管理npm下载node package的源的工具，使用nrm可以优雅的控制使用哪一个源来进行<code>npm install xxx</code>.我们选择使用yarn全局安装</p>
+</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yarn global add nrm</span><br></pre></td></tr></table></figure>
+
+<p>安装完成之后，先来看看当前客户端有哪些npm install的源。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nrm ls* npm ---- https://registry.npmjs.org/  cnpm --- http://r.cnpmjs.org/  taobao - https://registry.npm.taobao.org/  nj ----- https://registry.nodejitsu.com/  rednpm - http://registry.mirror.cqupt.edu.cn/  npmMirror  https://skimdb.npmjs.com/registry/  edunpm - http://registry.enpmjs.org/</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>配置客户端的<code>npm --registry</code>接下来使用nrm把我们的sinopia源添加进去。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nrm add unisolnpm http://192.168.90.185:4873    add registry unisolnpm success</span><br></pre></td></tr></table></figure>
+
+<p>再次运行<code>nrm ls</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* npm ---- https://registry.npmjs.org/  cnpm --- http://r.cnpmjs.org/  taobao - https://registry.npm.taobao.org/  nj ----- https://registry.nodejitsu.com/  rednpm - http://registry.mirror.cqupt.edu.cn/  npmMirror  https://skimdb.npmjs.com/registry/  edunpm - http://registry.enpmjs.org/  unisolnpm -  http://192.168.90.185:4873/</span><br></pre></td></tr></table></figure>
+
+<p>然后我们使用nrm切换到内部的npm源中</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nrm use unisolnpm</span><br></pre></td></tr></table></figure>
+
+<ol start="4">
+<li>客户端创建用户和登录接下来我们就可以使用npm在内部npm 服务上创建用户了。</li>
+</ol>
+<p>使用命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm adduser # 接下来根据指示操作就可以完成注册用户。# 使用 npm login进行登录操作npm login# 根据指示填写信息，就可以完成登录。</span><br></pre></td></tr></table></figure>
+
+<ol start="5">
+<li><code>install package</code>和<code>publish package</code>登录npm之后，我们就可以使用我们内部的npm源进行node package的安装和发布了。</li>
+</ol>
+<p><code>install package</code>当我们使用<code>npm install xxx</code>安装<code>xxx</code>时，假设在内部的<code>storage</code>存在该模块，就会直接下载该模块，假设不存在，就会使用在<code>sinopia</code>配置文件中配置的源进行拉取安装，并在<code>sinopia</code>的<code>storage</code>中进行缓存，方便下次安装。</p>
+<p><code>publish package</code></p>
+<ul>
+<li><p>使用<code>npm init</code>初始化</p>
+</li>
+<li><p>进入该项目目录，然后使用<code>npm publish</code>进行发布</p>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm publish# 打印出发布的包名和版本信息，表示发布成功。</span><br></pre></td></tr></table></figure>
+
+<p>发布的时候要注意包名称和版本号冲突的问题，稍作修改就搞了。</p>
+<p>后面还需要进行更多的研究。</p>
+<p>以上，搭建内部的npm源服务就结束了，enjoy～</p>
+</p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=https://zone.ai-dddd.top/2018/07/26/2018-07-26-sinopia-internal-npm/%20拖泥脑湿的博客%20sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2019/06/13/2019-06-13-let-and-const/" title="ES6-let/const"><i class="fa fa-angle-double-left"></i>&nbsp;Previous post: ES6-let/const</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2018/07/16/2018-07-16-codewars-first/" title="CodeWars 使用记录（一）">Next post: CodeWars 使用记录（一）&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>

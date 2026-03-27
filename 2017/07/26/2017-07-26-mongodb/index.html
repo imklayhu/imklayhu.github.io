@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>MongoDB 学习笔记-Windows下的安装配置 · 拖泥脑湿的博客</title><meta name="description" content="安装文件的下载官网提供了多种版本的安装包，主要就是 .msi 文件或者 .zip 文件。我是使用.msi安装的，.zip的安装大同小异，重点在配置。下载地址点这里 ：MongoDB下载
+我的安装目录是 c:\mongoDB
+第一步 搭建配置文件、数据库存储位置、日志存储位置
+
+在 bin 同级目录下"><meta name="og:description" content="安装文件的下载官网提供了多种版本的安装包，主要就是 .msi 文件或者 .zip 文件。我是使用.msi安装的，.zip的安装大同小异，重点在配置。下载地址点这里 ：MongoDB下载
+我的安装目录是 c:\mongoDB
+第一步 搭建配置文件、数据库存储位置、日志存储位置
+
+在 bin 同级目录下"><meta name="twitter:site" content="拖泥脑湿的博客"><meta name="twitter:title" content="MongoDB 学习笔记-Windows下的安装配置"><meta name="twitter:card" content="summary"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Klay's Notebook</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">阿胡的的流水账</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/categories">Categories</a></li><li><a href="/tags">Tags</a></li><li class="soc"><a href="https://github.com/Klay-Clam" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa fa-github">&nbsp;</i></a><a href="https://zone.ai-dddd.top/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>MongoDB 学习笔记-Windows下的安装配置</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-07-26</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/数据库/" title="数据库">数据库</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/MongoDB/" title="MongoDB">MongoDB</a><span>&nbsp;</span></span></p><p class="post-abstract"><p>安装文件的下载官网提供了多种版本的安装包，主要就是 <code>.msi</code> 文件或者 <code>.zip</code> 文件。我是使用<code>.msi</code>安装的，<code>.zip</code>的安装大同小异，重点在配置。下载地址点这里 ：MongoDB下载</p>
+<p>我的安装目录是 c:\mongoDB</p>
+<p>第一步 搭建配置文件、数据库存储位置、日志存储位置</p>
+<ul>
+<li>在 bin 同级目录下新建文件目录 <code>/conf/mongodb.config</code>,mongodb.config的内容和大致的解释：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dbpath=C:\MongoDB\data #数据库路径logpath=C:\MongoDB\logs\mongodb.log #日志输出文件路径logappend=true #错误日志采用追加模式，配置这个选项后mongodb的日志会追加到现有的日志文件，而不是从新创建一个新文件journal=true #启用日志文件，默认启用quiet=true #这个选项可以过滤掉一些无用的日志信息，若需要调试使用请设置为falseport=27017 #端口号 默认为27017#auth=true #后续配置可能会需要</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>在 bin 同级目录下新建文件目录 <code>/data/</code></p>
+</li>
+<li><p>在 bin 同级目录下新建文件目录 <code>/logs/mongodb.log</code></p>
+</li>
+</ul>
+<p>第二步 加入服务</p>
+<ul>
+<li><p>管理员身份运行 cmd，cd 到安装目录中的bin目录下</p>
+</li>
+<li><p>键入 <code>mongod --config C:\mongoDB\conf\mongodb.config --install --serviceName &quot;MongoDB&quot;</code> 回车。</p>
+</li>
+<li><p>打开控制面板，搜索服务，打开本地服务。查看是不是多了一个名为<code>MongoDB</code>的服务，右键将启动方式设置为自动。</p>
+</li>
+</ul>
+<p>第三步 加入系统环境变量</p>
+<ul>
+<li>我的电脑右键-&gt;属性-&gt;高级系统设置-&gt;环境变量，在系统变量中找到<code>Path</code>,在最后加入<code>;C:\mongoDB\bin</code>,保存！</li>
+</ul>
+<p>验证</p>
+<ul>
+<li>打开cmd，输入 <code>mongo</code>,回车。出现：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MongoDB shell version v3.4.6connecting to :mongodb://127.0.0.1:27017MongDB server version:3.4.6&gt;</span><br></pre></td></tr></table></figure>
+
+<p>恭喜，你已经安装并初步配置好你的MongoDB咯<del>可以开始愉快的coding咯</del>又打开新的世界咯~</p>
+<p>我在安装的过程中遇到了各种坑，其中最叫我无语的是配置文件的后缀名，我设置的后缀名是<code>.conf</code>，然后加入服务各种报错。希望各位小伙伴不要犯我的错误哦~enjoy ^_^</p>
+</p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=https://zone.ai-dddd.top/2017/07/26/2017-07-26-mongodb/%20拖泥脑湿的博客%20MongoDB 学习笔记-Windows下的安装配置"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2017/08/02/2017-08-02-nodeexpressajax/" title="Node接收和处理前端的Ajax请求"><i class="fa fa-angle-double-left"></i>&nbsp;Previous post: Node接收和处理前端的Ajax请求</a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>

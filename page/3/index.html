@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>拖泥脑湿的博客</title><meta name="description" content="A Blog Powered By Hexo"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Klay's Notebook</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">阿胡的的流水账</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a class="current" href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/categories">Categories</a></li><li><a href="/tags">Tags</a></li><li class="soc"><a href="https://github.com/Klay-Clam" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa fa-github">&nbsp;</i></a><a href="https://zone.ai-dddd.top/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-container"><p class="post-title"><a href="/2017/10/16/2017-10-16-callapplybind/">JavaScript 中的call(),apply()和bind()</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-10-16</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/javascript/" title="javascript">javascript</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/call/" title="call">call</a><span>&nbsp;</span><a class="a-tag" href="/tags/apply/" title="apply">apply</a><span>&nbsp;</span><a class="a-tag" href="/tags/bind/" title="bind">bind</a><span>&nbsp;</span></span></p><p class="post-abstract">一、细节
+
+javascript 中函数存在“定义时上下文”，“运行时上下文”
+
+上下文是可变的
+
+
+
+call()``call(),为改变某个函数运行时的上下文(context)而存在的，换句话说，是为了改变函数内部的this指向.
+
+  
+
+参考：MDN call()方法
+2.apply()apply()与c...</p></div><div class="post-container"><p class="post-title"><a href="/2017/08/19/2017-08-19-mongodumpandrestore/">MongoDB 数据库的备份、恢复和迁移</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-08-19</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/数据库/" title="数据库">数据库</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/MongoDB/" title="MongoDB">MongoDB</a><span>&nbsp;</span></span></p><p class="post-abstract">MongoDB 数据库的备份
+  
+
+在这两天我项目中遇到的问题，需要的参数主要有以下(以ubuntu为例，windows下把参数的 -- 换成 /即可)：
+  
+
+开始备份：
+  
+
+从备份文件恢复数据库、迁移数据库之前你已经备份了数据库了，我还没有尝试其他的数据库迁移的方法，我的方法就是—将之前电脑备份的数据...</p></div><div class="post-container"><p class="post-title"><a href="/2017/08/14/2017-08-14-esgenerators/">ECMAscript 6 深入浅出学习笔记-generators</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-08-14</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/node/" title="node">node</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/node/" title="node">node</a><span>&nbsp;</span><a class="a-tag" href="/tags/es6/" title="es6">es6</a><span>&nbsp;</span></span></p><p class="post-abstract">深入浅出ES6（三）：生成器 Generators 
+从一个简单的示例开始
+  
+
+当我们调用上述程序,并在console中输出结果的时候发生了什么?
+  
+
+generators函数与普通函数的区别
+
+普通函数使用function声明，而generators函数使用function*声明
+
+在生成器函数内部，有...</p></div><div class="post-container"><p class="post-title"><a href="/2017/08/12/2017-08-12-newarticleplan/">近期的文章规划，以及阶段性总结</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-08-12</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/随笔/" title="随笔">随笔</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/Plan/" title="Plan">Plan</a><span>&nbsp;</span></span></p><p class="post-abstract">实习已经接近一个月，进入项目组也有二十来天。过程中有过不少的小插曲，有反思，收集、积累和行动。总之，想来写写。主要分为两部分：近期的学习计划及文章的规划、阶段性的一个总结。
+近期学习计划以及文章的规划
+
+ECMAscript 6
+
+CommonJS 规范以及Node 的模块机制
+
+Express 源码阅读以及分析...</p></div><div class="post-container"><p class="post-title"><a href="/2017/08/10/2017-08-10-nodeedgecsharp/">通过edge.js调用C# 动态链接库 dll，我踩踩坑什么的</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-08-10</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/node/" title="node">node</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/node/" title="node">node</a><span>&nbsp;</span><a class="a-tag" href="/tags/edge-js/" title="edge.js">edge.js</a><span>&nbsp;</span><a class="a-tag" href="/tags/C/" title="C#">C#</a><span>&nbsp;</span></span></p><p class="post-abstract">使用edge.js调用.dll文件 第二次补充：edgejs按我个人理解，是一个允许通过Node去调用 C# 的一个库。因为最近的项目需要才接触的。具体参考这里[edge.js Github]
+使用npm init初始化项目，安装依赖edge,npm install -gd edge.C#代码，经过编译之后生成了...</p></div><div class="post-container"><p class="post-title"><a href="/2017/08/02/2017-08-02-nodeexpressajax/">Node接收和处理前端的Ajax请求</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-08-02</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/node/" title="node">node</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/node/" title="node">node</a><span>&nbsp;</span><a class="a-tag" href="/tags/express/" title="express">express</a><span>&nbsp;</span><a class="a-tag" href="/tags/ajax/" title="ajax">ajax</a><span>&nbsp;</span></span></p><p class="post-abstract">前几天在学习 express 的过程中，不想使用一些类似ejs这样的模板中的一些特性，所以尝试着使用ajax来与node后端交互。来这里记录一下。
+
+安装express当然安装和使用express的前提是，你的设备已经有Node的环境了。没有的话自己去找吧～嘻嘻。    我的环境：Ubuntu 16.04、nod...</p></div><div class="post-container"><p class="post-title"><a href="/2017/07/26/2017-07-26-mongodb/">MongoDB 学习笔记-Windows下的安装配置</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2017-07-26</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/数据库/" title="数据库">数据库</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/MongoDB/" title="MongoDB">MongoDB</a><span>&nbsp;</span></span></p><p class="post-abstract">安装文件的下载官网提供了多种版本的安装包，主要就是 .msi 文件或者 .zip 文件。我是使用.msi安装的，.zip的安装大同小异，重点在配置。下载地址点这里 ：MongoDB下载
+我的安装目录是 c:\mongoDB
+第一步 搭建配置文件、数据库存储位置、日志存储位置
+
+在 bin 同级目录下新建文件目录 ...</p></div><div class="pagination no-margin-bottom"><p class="clearfix"><p> Page 3 / 3 &nbsp;</p><p><span class="pre pagbuttons"><i class="fa fa-angle-double-left"></i>&nbsp;<a role="navigation" href="/page/2/" aria-label="Previous">Previous</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/" aria-label="Next">Next</a>&nbsp;<i class="fa fa-angle-double-right"></i></span></p></p></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>

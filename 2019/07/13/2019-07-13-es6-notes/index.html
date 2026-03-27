@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>ES6笔记📒 · 拖泥脑湿的博客</title><meta name="description" content="对象的原型prototype
+
+1var A = &amp;#123;  n: 4399&amp;#125;;var B = function()&amp;#123;  this.n = 9999;&amp;#125;var C = function() &amp;#123;  var n = 8888;&amp;#125;B.prototype"><meta name="og:description" content="对象的原型prototype
+
+1var A = &amp;#123;  n: 4399&amp;#125;;var B = function()&amp;#123;  this.n = 9999;&amp;#125;var C = function() &amp;#123;  var n = 8888;&amp;#125;B.prototype"><meta name="twitter:site" content="拖泥脑湿的博客"><meta name="twitter:title" content="ES6笔记📒"><meta name="twitter:card" content="summary"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Klay's Notebook</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">阿胡的的流水账</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/categories">Categories</a></li><li><a href="/tags">Tags</a></li><li class="soc"><a href="https://github.com/Klay-Clam" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa fa-github">&nbsp;</i></a><a href="https://zone.ai-dddd.top/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>ES6笔记📒</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2019-07-13</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/JavaScript/" title="JavaScript">JavaScript</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/ES6/" title="ES6">ES6</a><span>&nbsp;</span></span></p><p class="post-abstract"><ul>
+<li>对象的原型<code>prototype</code></li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> A = &#123;  <span class="attr">n</span>: <span class="number">4399</span>&#125;;<span class="keyword">var</span> B = <span class="keyword">function</span>(<span class="params"></span>)&#123;  <span class="variable language_">this</span>.<span class="property">n</span> = <span class="number">9999</span>;&#125;<span class="keyword">var</span> C = <span class="keyword">function</span>(<span class="params"></span>) &#123;  <span class="keyword">var</span> n = <span class="number">8888</span>;&#125;B.<span class="property"><span class="keyword">prototype</span></span> = A;C.<span class="property"><span class="keyword">prototype</span></span> = A;<span class="keyword">var</span> b = <span class="keyword">new</span> <span class="title function_">B</span>();<span class="keyword">var</span> c = <span class="keyword">new</span> <span class="title function_">C</span>();A.<span class="property">n</span>++;<span class="variable language_">console</span>.<span class="title function_">log</span>(b.<span class="property">n</span>);<span class="variable language_">console</span>.<span class="title function_">log</span>(c.<span class="property">n</span>);</span><br></pre></td></tr></table></figure>
+
+<p>对象在寻找属性&#x2F;方法时在当前对象中寻找，不存在的时候才去原型中寻找。如果在对象中已经存在，就不会去原型中寻找。</p>
+<ul>
+<li><code>let</code>,<code>var</code>的区别<br>let:用来声明局部变量。用法与var类似，但是声明的变量值在let命令所在的代码块内有效，而且有暂时性死区的约束。</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/* var 变量提升的问题 */var a = 99;f();console.log(a); // [3] 99 打印全局变量afunction f() &#123;  console.log(a); // [1] undefined 变量提升且未赋值  var a = 10;  console.log(a); // [2] 10 打印赋值之后的a的值&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>let</code>没有变量提升的问题，因为变量在let声明之前使用会报错，只能在声明之后再使用。也就是暂时性死区<br><code>let</code>不能在同一作用域重复声明同一变量</p>
+<ul>
+<li>箭头函数 <code>==&gt;</code><br>箭头函数表达式的语法比函数表达式更简洁，并且没有自己的<code>this</code>，<code>arguments</code>，<code>super</code>或 <code>new.target</code>。这些函数表达式更适用于那些本来需要匿名函数的地方，并且它们不能用作构造函数。<br>引入箭头函数有两个方面的作用：更简短的函数并不绑定<code>this</code></li>
+</ul>
+<p>更简短的函数</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> elements = [  <span class="string">&#x27;Hydrogen&#x27;</span>,  <span class="string">&#x27;Helium&#x27;</span>,  <span class="string">&#x27;Lithium&#x27;</span>,  <span class="string">&#x27;Beryllium&#x27;</span>];elements.<span class="title function_">map</span>(<span class="keyword">function</span>(<span class="params">element</span>)&#123;  <span class="keyword">return</span> element.<span class="property">length</span>;&#125;); <span class="comment">// 返回数组 [8,6,7,9]// 改写为箭头函数elements.map((element) =&gt; &#123;  return element.length;&#125;); // [8,6,7,9]// 当箭头函数只有一个参数时，可以省略参数的圆括号elements.map(element =&gt; &#123;  return element.length;&#125;); // [8,6,7,9]// 当箭头函数只有一个 return 函数体语句时，可以省略 return 关键字和方法体的花括号elements.map(element =&gt; element.length);// 在这个例子中，因为我们只需要 `length` 属性，所以可以使用参数解构// 需要注意的是字符串 `&quot;length&quot;` 是我们想要获得的属性的名称，而 `lengthFooBArX` 则只是个变量名，// 可以替换成任意合法的变量名elements.map((&#123; &quot;length&quot;: lengthFooBArX &#125;) =&gt; lengthFooBArX); // [8, 6, 7, 9]</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>不绑定<code>this</code></li>
+</ul>
+<p>在箭头函数出现在以前，每个新定义的函数都有他自己的<code>this</code>(在构造函数的情况下时一个新对象，在严格模式的函数调用中威undefined，如果该函数被作为对象方法调用，则为基础对象等)。this被证明是令人厌烦的面向对象风格的编程。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">Person</span>(<span class="params"></span>) &#123;  <span class="comment">// Person() 构造函数定义 this 作为它自己的实例  this.age = 0;  setInterval(function growUp()&#123;    // 在非严格模式, growUp()函数定义 `this`作为全局对象,     // 与在 Person()构造函数中定义的 `this`并不相同.    this.age++;  &#125;, 1000);&#125;var p = new Person()// growUp方法内部的this不指向Person对象// 使用箭头函数解决上面的问题function Person() &#123;  this.age = 0;  setInterval(() =&gt; &#123;    this.age++;  &#125;, 1000);&#125;var p = new Person()</span></span><br></pre></td></tr></table></figure>
+
+<p>箭头函数不能用做构造器，和new一起使用会抛出错误。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> <span class="title function_">Foo</span> = (<span class="params"></span>) =&gt; &#123;&#125;;<span class="keyword">var</span> foo = <span class="keyword">new</span> <span class="title class_">Foo</span>(); <span class="comment">// TypeError: Foo is not a constructorconsole.log(Foo.prototype); // undifined 箭头函数没有undefined属性</span></span><br></pre></td></tr></table></figure>
+
+<p>箭头函数返回对象字面量</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> <span class="title function_">func</span> = (<span class="params"></span>) =&gt; (&#123;<span class="attr">foo</span>: <span class="number">1</span>&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>箭头函数递归：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> <span class="title function_">fact</span> = x =&gt; ( x == <span class="number">0</span> ? <span class="number">1</span> : x*<span class="title function_">fact</span>(x-<span class="number">1</span>));<span class="title function_">fact</span>(<span class="number">5</span>);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Set<br>ES6提供了新的数据结构Set。它类似数组，但是成员的值都是唯一的，没有重复的值，可以按照插入的顺序迭代元素。</li>
+</ul>
+<p><code>NaN</code>和<code>undefined</code>都可以被存储在Set 中， <code>NaN</code>之间被视为相同的值（尽管 NaN !&#x3D;&#x3D; NaN）。另外在Set中两个对象总是不相等的，即使是两个空对象</p>
+<p>Set本身是一个构造函数，用来生成Set数据结构</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> s = <span class="keyword">new</span> <span class="title class_">Set</span>();[<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>].<span class="title function_">forEach</span>(<span class="function"><span class="params">x</span> =&gt;</span> &#123;  s.<span class="title function_">add</span>(x)&#125;)<span class="keyword">for</span> (<span class="keyword">let</span> i <span class="keyword">of</span> s)&#123;  <span class="variable language_">console</span>.<span class="title function_">log</span>(i)&#125;<span class="comment">// 2 3 4 5 6 7</span></span><br></pre></td></tr></table></figure>
+
+<p><code>add()</code>方法向Set结构加入成员。<br>Set函数可以接受一个数组（活着具有iterable接口的其他数据结构）或为参数，用来初始化</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// 去除数组的重复成员[...new Set(array)]// 去除字符串中的重复字符[...new Set(&#x27;abbbbasssas&#x27;)].join(&#x27;&#x27;)</span><br></pre></td></tr></table></figure>
+
+<p>Set实例的属性和方法</p>
+<p><code>Set.prototype.constructor</code>:构造函数，默认就是Set函数</p>
+<ul>
+<li><p><code>Set.prototype.size</code>:返回Set实例的成员总数</p>
+</li>
+<li><p><code>Set.prototype.add(value)</code>:添加某个值，返回Set结构本身</p>
+</li>
+<li><p><code>Set.prototype.delete(value)</code>:删除某个值，返回boolean值，表示删除是否成功</p>
+</li>
+<li><p><code>Set.prototype.has(value)</code>:返回一个boolean值，表示该值是否为Set成员</p>
+</li>
+<li><p><code>Set.prototype.clear()</code>:清除所有成员，没有返回值</p>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> items = <span class="keyword">new</span> <span class="title class_">Set</span>([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]);<span class="keyword">const</span> array = <span class="title class_">Array</span>.<span class="title function_">from</span>(items);<span class="comment">// 数组去重的另一种方法：function dedupe(array) &#123;  return Array.from(new Set(array));&#125;dedupe([1, 1, 2, 3]) // [1, 2, 3]</span></span><br></pre></td></tr></table></figure>
+
+<p>Set的遍历操作</p>
+<ul>
+<li><p><code>Set.prototype.keys()</code>：返回键名的遍历器</p>
+</li>
+<li><p><code>Set.prototype.values()</code>：返回键值的遍历器</p>
+</li>
+<li><p><code>Set.prototype.entries()</code>：返回键值对的遍历器</p>
+</li>
+<li><p><code>Set.prototype.forEach()</code>：使用回调函数遍历每个成员</p>
+</li>
+</ul>
+<p><code>Set</code>的遍历顺序就是插入顺序。这个特性有时非常有用，比如使用 Set 保存一个回调函数列表，调用时就能保证按照添加顺序调用</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> set = <span class="keyword">new</span> <span class="title class_">Set</span>([<span class="string">&#x27;red&#x27;</span>, <span class="string">&#x27;green&#x27;</span>, <span class="string">&#x27;blue&#x27;</span>]);<span class="comment">// keysfor (let item of set.keys()) &#123;  console.log(item);&#125;// red// green// blue// valuesfor (let item of set.values())&#123;  console.log(item)&#125;// red// green// blue// entries()for (let item of set.entries()) &#123;  console.log(item);&#125;// [&quot;red&quot;, &quot;red&quot;]// [&quot;green&quot;, &quot;green&quot;]// [&quot;blue&quot;, &quot;blue&quot;]</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// 使用forEach进行遍历let set = new Set([1, 4, 9]);set.forEach((value, key) =&gt; console.log(key + &#x27; : &#x27; + value))// 1 : 1// 4 : 4// 9 : 9</span><br></pre></td></tr></table></figure>
+
+<p>Set遍历的应用：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// 数组去重let arr = [3, 5, 2, 2, 5, 5];let unique = [...new Set(arr)];// 配合数组方法map、filterlet set = new Set([1, 2, 3]);set = new Set([...set].map(x =&gt; x * 2));// 返回Set结构：&#123;2, 4, 6&#125;let set = new Set([1, 2, 3, 4, 5]);set = new Set([...set].filter(x =&gt; (x % 2) == 0));// 返回Set结构：&#123;2, 4&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Promise<br>是一部变成的一种解决方案，比传统的解决方案更加合理和强大。Promise是一个对象，从它可以回去一步操作的消息。Promise提供统一的API，各种一步操作都可以使用用样的方法进行处理。</li>
+</ul>
+<p><code>Promise</code>构造函数是同步执行的，<code>promise.then</code>是异步执行的</p>
+<ul>
+<li><p>构造函数中的<code>resolve</code>或<code>reject</code> 只有第一次执行有效，多次调用没有任何作用</p>
+</li>
+<li><p><code>promise</code> 的<code>.then</code> 或者<code>.catch</code> 可以被调用多次，但这里<code>Promise</code>构造函数只执行一次。或者说 <code>promise</code> 内部状态一经改变，并且有了一个值，那么后续每次调用<code>.then</code>或者<code>.catch</code> 都会直接拿到该值</p>
+</li>
+</ul>
+</p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=https://zone.ai-dddd.top/2019/07/13/2019-07-13-es6-notes/%20拖泥脑湿的博客%20ES6笔记📒"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2019/09/10/2019-09-10-frontend-simple-algorithms/" title="前端面试常用的简单排序算法"><i class="fa fa-angle-double-left"></i>&nbsp;Previous post: 前端面试常用的简单排序算法</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2019/06/13/2019-06-13-let-and-const/" title="ES6-let/const">Next post: ES6-let/const&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>

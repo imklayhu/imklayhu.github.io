@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Klay-Clam</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://zone.ai-dddd.top/</id>
+  <link href="https://zone.ai-dddd.top/" rel="alternate"/>
+  <link href="https://zone.ai-dddd.top/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Klay-Clam</rights>
+  <subtitle>Tony's Notebook</subtitle>
+  <title>拖泥脑湿的博客</title>
+  <updated>2026-03-27T07:58:51.136Z</updated>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/categories/JavaScript/"/>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/tags/JavaScript/"/>
+    <id>https://zone.ai-dddd.top/2020/01/03/2020-01-03-codewars-2/</id>
+    <link href="https://zone.ai-dddd.top/2020/01/03/2020-01-03-codewars-2/"/>
+    <published>2020-01-02T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2><span id="camelcase-method">CamelCase Method</span></h2><p>Write simple <code>.camelCase</code> method (<code>camel_case</code>]]>
+    </summary>
+    <title>CodeWars 学习记录（二）</title>
+    <updated>2026-03-27T07:58:51.136Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="随笔" scheme="https://zone.ai-dddd.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="年度总结" scheme="https://zone.ai-dddd.top/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    <id>https://zone.ai-dddd.top/2020/01/02/2020-01-02-2019-of-mine/</id>
+    <link href="https://zone.ai-dddd.top/2020/01/02/2020-01-02-2019-of-mine/"/>
+    <published>2020-01-01T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>2020年的第一天，早起拍小区旁河边的日出。看着城市在黑暗中慢慢苏醒，到早晨的太阳洒满街道的一个多小时中，脑海里面慢慢闪现出自己过去一年的诸多画面。</p>
+<h3><span]]>
+    </summary>
+    <title>2019:我这一年</title>
+    <updated>2026-03-27T08:00:43.442Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/categories/JavaScript/"/>
+    <category term="面试题" scheme="https://zone.ai-dddd.top/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <category term="Array" scheme="https://zone.ai-dddd.top/tags/Array/"/>
+    <id>https://zone.ai-dddd.top/2019/12/31/2019-12-31-array-item-square/</id>
+    <link href="https://zone.ai-dddd.top/2019/12/31/2019-12-31-array-item-square/"/>
+    <published>2019-12-30T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h4><span id="题目">题目</span></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span]]>
+    </summary>
+    <title>关于返回数组元素平方的一道面试题</title>
+    <updated>2026-03-27T08:01:10.777Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="逼逼叨叨" scheme="https://zone.ai-dddd.top/categories/%E9%80%BC%E9%80%BC%E5%8F%A8%E5%8F%A8/"/>
+    <category term="碎碎念" scheme="https://zone.ai-dddd.top/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>https://zone.ai-dddd.top/2019/12/25/2019-12-25-copy-from-baidu/</id>
+    <link href="https://zone.ai-dddd.top/2019/12/25/2019-12-25-copy-from-baidu/"/>
+    <published>2019-12-24T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>今天在家的时候，还在公司加班的另一位前端同学微信找我，问我为什么<code>wx.navigateTo({url:&#39;pages/index/index&#39;})</code>不能跳转到首页了。其实这使得我当时有点愤怒，一者是在我休息时间找到我，不过自从进入这家公]]>
+    </summary>
+    <title>面向百度(代指搜索引擎)编程的朋友</title>
+    <updated>2026-03-27T08:00:43.489Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/categories/JavaScript/"/>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/tags/JavaScript/"/>
+    <category term="OOP" scheme="https://zone.ai-dddd.top/tags/OOP/"/>
+    <id>https://zone.ai-dddd.top/2019/09/25/2019-09-25-javascript-oop-1/</id>
+    <link href="https://zone.ai-dddd.top/2019/09/25/2019-09-25-javascript-oop-1/"/>
+    <published>2019-09-24T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h3><span id="对象基础">对象基础</span></h3><h4><span id="字面量声明对象">字面量声明对象</span></h4><figure class="highlight javascript"><table><tr><td]]>
+    </summary>
+    <title>JavaScript面向对象（一）</title>
+    <updated>2026-03-27T08:02:33.332Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="概念" scheme="https://zone.ai-dddd.top/categories/%E6%A6%82%E5%BF%B5/"/>
+    <category term="OOP" scheme="https://zone.ai-dddd.top/tags/OOP/"/>
+    <id>https://zone.ai-dddd.top/2019/09/25/2019-09-25-oop-shi-shen-me/</id>
+    <link href="https://zone.ai-dddd.top/2019/09/25/2019-09-25-oop-shi-shen-me/"/>
+    <published>2019-09-24T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2><span]]>
+    </summary>
+    <title>面向对象（OOP）到底是什么</title>
+    <updated>2026-03-27T08:02:18.606Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="javascript" scheme="https://zone.ai-dddd.top/categories/javascript/"/>
+    <id>https://zone.ai-dddd.top/2019/09/18/2019-09-18-wechat-miniprogram-tabbaritem/</id>
+    <link href="https://zone.ai-dddd.top/2019/09/18/2019-09-18-wechat-miniprogram-tabbaritem/"/>
+    <published>2019-09-17T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>官方的文档没有提到，这个api是需要在tabbar页面调用的，在非tabbar页面调用的时候，会报错.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span]]>
+    </summary>
+    <title>微信小程序 wx.setTabBarItem()需要注意的地方</title>
+    <updated>2026-03-27T08:02:33.333Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/categories/JavaScript/"/>
+    <category term="Javascript" scheme="https://zone.ai-dddd.top/tags/Javascript/"/>
+    <category term="算法" scheme="https://zone.ai-dddd.top/tags/%E7%AE%97%E6%B3%95/"/>
+    <id>https://zone.ai-dddd.top/2019/09/10/2019-09-10-frontend-simple-algorithms/</id>
+    <link href="https://zone.ai-dddd.top/2019/09/10/2019-09-10-frontend-simple-algorithms/"/>
+    <published>2019-09-09T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<ul>
+<li>冒泡排序</li>
+</ul>
+<p>原理：每一次对比相邻两个数据的大小，按照升序&#x2F;降序进行位置的交换</p>
+<figure class="highlight javascript"><table><tr><td]]>
+    </summary>
+    <title>前端面试常用的简单排序算法</title>
+    <updated>2026-03-27T08:02:33.331Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/categories/JavaScript/"/>
+    <category term="ES6" scheme="https://zone.ai-dddd.top/tags/ES6/"/>
+    <id>https://zone.ai-dddd.top/2019/07/13/2019-07-13-es6-notes/</id>
+    <link href="https://zone.ai-dddd.top/2019/07/13/2019-07-13-es6-notes/"/>
+    <published>2019-07-12T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<ul>
+<li>对象的原型<code>prototype</code></li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span]]>
+    </summary>
+    <title>ES6笔记📒</title>
+    <updated>2026-03-27T08:02:33.332Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="JavaScript" scheme="https://zone.ai-dddd.top/categories/JavaScript/"/>
+    <category term="ES6" scheme="https://zone.ai-dddd.top/tags/ES6/"/>
+    <category term="let" scheme="https://zone.ai-dddd.top/tags/let/"/>
+    <category term="const" scheme="https://zone.ai-dddd.top/tags/const/"/>
+    <id>https://zone.ai-dddd.top/2019/06/13/2019-06-13-let-and-const/</id>
+    <link href="https://zone.ai-dddd.top/2019/06/13/2019-06-13-let-and-const/"/>
+    <published>2019-06-12T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>let命令声明的变量，只在<code>let</code>命令所在的代码块内有效。</p>
+<p>for 循环 的计数器，很合适使用let命令。</p>
+<figure class="highlight plaintext"><table><tr><td]]>
+    </summary>
+    <title>ES6-let/const</title>
+    <updated>2026-03-27T08:36:32.286Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="node" scheme="https://zone.ai-dddd.top/categories/node/"/>
+    <category term="npm" scheme="https://zone.ai-dddd.top/tags/npm/"/>
+    <category term="sinopia" scheme="https://zone.ai-dddd.top/tags/sinopia/"/>
+    <id>https://zone.ai-dddd.top/2018/07/26/2018-07-26-sinopia-internal-npm/</id>
+    <link href="https://zone.ai-dddd.top/2018/07/26/2018-07-26-sinopia-internal-npm/"/>
+    <published>2018-07-25T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p><code>sinopia</code>搭建内部<code>npm</code><br>服务器：CentOS]]>
+    </summary>
+    <title>sinopia搭建内部npm后端和在客户端如何使用内部npm进行开发</title>
+    <updated>2026-03-27T08:36:32.287Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="javascript" scheme="https://zone.ai-dddd.top/categories/javascript/"/>
+    <category term="accum" scheme="https://zone.ai-dddd.top/tags/accum/"/>
+    <category term="bit count" scheme="https://zone.ai-dddd.top/tags/bit-count/"/>
+    <id>https://zone.ai-dddd.top/2018/07/16/2018-07-16-codewars-first/</id>
+    <link href="https://zone.ai-dddd.top/2018/07/16/2018-07-16-codewars-first/"/>
+    <published>2018-07-15T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>这两天在网上发现了codewars这个网站，感觉有点意思。在上班无聊的时候我就试了下，好玩hhh。现在将我尝试的几道题记录一下。后面也可以试试去<code>leetcode</code>试试</p>
+<p>accum题目描述：</p>
+<p>This time no]]>
+    </summary>
+    <title>CodeWars 使用记录（一）</title>
+    <updated>2026-03-27T08:07:16.894Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="随笔" scheme="https://zone.ai-dddd.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="年中总结" scheme="https://zone.ai-dddd.top/tags/%E5%B9%B4%E4%B8%AD%E6%80%BB%E7%BB%93/"/>
+    <id>https://zone.ai-dddd.top/2018/07/13/2018-07-13-2018-mid-year-summary/</id>
+    <link href="https://zone.ai-dddd.top/2018/07/13/2018-07-13-2018-mid-year-summary/"/>
+    <published>2018-07-12T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>转眼就是下半年了，回头看看年初自己写的blog，很多计划现在还没开始执行。长大之后时间过得飞快。</p>
+<p>上半年的一半时间在上海，还有好多一部分在武汉学校，在家也待了一段时间。</p>
+<p>今年也从学校毕业了，会学校的一段时间，到处飘着某某同学的高薪消息。只能羡慕哈]]>
+    </summary>
+    <title>拖泥脑湿的2018年中总结</title>
+    <updated>2026-03-27T08:36:32.286Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <id>https://zone.ai-dddd.top/2018/07/12/2018-07-12-hello-world/</id>
+    <link href="https://zone.ai-dddd.top/2018/07/12/2018-07-12-hello-world/"/>
+    <published>2018-07-11T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-03-27T08:07:16.894Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="随笔" scheme="https://zone.ai-dddd.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="计划" scheme="https://zone.ai-dddd.top/tags/%E8%AE%A1%E5%88%92/"/>
+    <id>https://zone.ai-dddd.top/2018/01/07/2018-01-07-2018-projection/</id>
+    <link href="https://zone.ai-dddd.top/2018/01/07/2018-01-07-2018-projection/"/>
+    <published>2018-01-06T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>思考人生啦。这几天一直在思考2018年应该做些什么，这里将这些想法记录下来。是否可行在后面逐条调查。包括自己的学习计划，职业规划以及生活上的展望。</p>
+<p>学习计划学习计划自己的心里有个数。一方面学习一些计算机基础的原理的东西。另一方面学习和深入前端的知识，扩充自己的]]>
+    </summary>
+    <title>2018年我会更好吗</title>
+    <updated>2026-03-27T08:07:07.901Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="随笔" scheme="https://zone.ai-dddd.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="年度总结" scheme="https://zone.ai-dddd.top/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    <id>https://zone.ai-dddd.top/2017/12/30/2017-12-30-2017-summary/</id>
+    <link href="https://zone.ai-dddd.top/2017/12/30/2017-12-30-2017-summary/"/>
+    <published>2017-12-29T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>现在的时间是2017年12月25日，圣诞节。再有五天就到了新的一年了，回过头来想想2017年，感受颇多。蛮长时间没有对自己做总结了，年关将至，应该做一次总结啦。</p>
+<h1><span]]>
+    </summary>
+    <title>2017年的总结--兵慌马乱，生活不易，未来可期</title>
+    <updated>2026-03-27T08:04:43.258Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="面试" scheme="https://zone.ai-dddd.top/categories/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zone.ai-dddd.top/tags/%E9%9D%A2%E8%AF%95/"/>
+    <id>https://zone.ai-dddd.top/2017/11/19/2017-11-19-xiamen-meituan-interview-summary/</id>
+    <link href="https://zone.ai-dddd.top/2017/11/19/2017-11-19-xiamen-meituan-interview-summary/"/>
+    <published>2017-11-18T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>2017.11.02 美团的所有的面试结束，结果不尽如人意。虽然这样仍然觉得收获颇丰。</p>
+<h1><span]]>
+    </summary>
+    <title>厦门美团面试总结</title>
+    <updated>2026-03-27T08:04:43.283Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="随笔" scheme="https://zone.ai-dddd.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://zone.ai-dddd.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    <id>https://zone.ai-dddd.top/2017/10/22/2017-10-22-awesome-idea/</id>
+    <link href="https://zone.ai-dddd.top/2017/10/22/2017-10-22-awesome-idea/"/>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2><span id="why-awesome">WHY AWESOME?</span></h2><p>就在刚才，我看到了一个来自我follow的一位大佬的github主页上<code>contributions in the last]]>
+    </summary>
+    <title>AWESOME IDEA 和 最近的一些思考</title>
+    <updated>2026-03-27T08:04:43.316Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="javascript" scheme="https://zone.ai-dddd.top/categories/javascript/"/>
+    <category term="变量提升" scheme="https://zone.ai-dddd.top/tags/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87/"/>
+    <id>https://zone.ai-dddd.top/2017/10/22/2017-10-22-javascript-variable-hoisting/</id>
+    <link href="https://zone.ai-dddd.top/2017/10/22/2017-10-22-javascript-variable-hoisting/"/>
+    <published>2017-10-21T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2><span]]>
+    </summary>
+    <title>javascript 中的变量提升的问题</title>
+    <updated>2026-03-27T08:04:53.091Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Klay-Clam</name>
+    </author>
+    <category term="javascript" scheme="https://zone.ai-dddd.top/categories/javascript/"/>
+    <category term="闭包" scheme="https://zone.ai-dddd.top/tags/%E9%97%AD%E5%8C%85/"/>
+    <category term="作用域" scheme="https://zone.ai-dddd.top/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F/"/>
+    <id>https://zone.ai-dddd.top/2017/10/18/2017-10-18-javascript-scope-and-closure-repost/</id>
+    <link href="https://zone.ai-dddd.top/2017/10/18/2017-10-18-javascript-scope-and-closure-repost/"/>
+    <published>2017-10-17T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2><span]]>
+    </summary>
+    <title>[转载]javascript中的作用域和闭包问题</title>
+    <updated>2026-03-27T08:05:12.507Z</updated>
+  </entry>
+</feed>
