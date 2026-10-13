@@ -1,0 +1,3 @@
+# Persisted Typography overrides (theme is cloned at deploy; see tools/bootstrap-typography.sh)
+title_primary: "拖泥脑湿的博客"
+title_secondary: "Tony's Notebook"

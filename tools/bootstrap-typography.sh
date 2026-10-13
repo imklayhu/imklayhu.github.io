@@ -8,7 +8,10 @@ echo "[1/5] Ensure working directory"
 cd "${ROOT_DIR}"
 
 echo "[2/5] Install Typography runtime dependencies"
-npm install
+if grep -q 'packages.aliyun.com' "${ROOT_DIR}/package-lock.json" 2>/dev/null; then
+  sed -i 's|https://packages.aliyun.com/[^/]*/npm/npm-registry/|https://registry.npmjs.org/|g' "${ROOT_DIR}/package-lock.json"
+fi
+npm install --registry=https://registry.npmjs.org/
 
 echo "[3/5] Fetch theme source"
 if [ -d "${THEME_DIR}/.git" ]; then
