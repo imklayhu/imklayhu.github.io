@@ -110,6 +110,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: typography
 
+# Merged into Typography theme (duplicate of _config.typography.yml for visibility)
+theme_config:
+  title_primary: "阿胡的的流水账"
+  title_secondary: "Klay's Notebook"
+
 plugin:
   - hexo-generator-category-enhance
   - hexo-generator-feed

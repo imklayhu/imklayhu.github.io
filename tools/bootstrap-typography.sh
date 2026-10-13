@@ -22,6 +22,31 @@ else
   git clone https://github.com/SumiMakito/hexo-theme-typography.git "${THEME_DIR}"
 fi
 
+echo "[3b/5] Apply site Typography overrides to cloned theme"
+apply_typography_key() {
+  local key="$1"
+  local value="$2"
+  local file="${THEME_DIR}/_config.yml"
+  if grep -q "^${key}:" "${file}"; then
+    sed -i "s|^${key}:.*|${key}: \"${value}\"|" "${file}"
+  else
+    printf '%s: "%s"\n' "${key}" "${value}" >> "${file}"
+  fi
+}
+if [ -f "${ROOT_DIR}/_config.typography.yml" ]; then
+  while IFS= read -r line; do
+    key="${line%%:*}"
+    value="${line#*: }"
+    value="${value%\"}"
+    value="${value#\"}"
+    case "${key}" in
+      title_primary|title_secondary) apply_typography_key "${key}" "${value}" ;;
+    esac
+  done < <(grep -E '^(title_primary|title_secondary):' "${ROOT_DIR}/_config.typography.yml")
+else
+  echo "WARN: missing _config.typography.yml; sidebar may show Typography / 活版印字."
+fi
+
 echo "[4/5] Install theme dependencies"
 cd "${THEME_DIR}"
 npm install
