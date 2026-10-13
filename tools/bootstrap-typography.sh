@@ -28,6 +28,9 @@ npm install
 
 echo "[5/5] Build and validate"
 cd "${ROOT_DIR}"
+if [ ! -f "${ROOT_DIR}/_config.typography.yml" ]; then
+  echo "WARN: missing _config.typography.yml (title_primary/title_secondary); theme defaults will show."
+fi
 npx hexo clean
 npx hexo g
 
