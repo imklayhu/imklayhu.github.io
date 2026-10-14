@@ -69,6 +69,8 @@ Token 只绑定一个 `user_id`；`oauthTenantContext` 强制 `role: user`——
 
 本地 `packages/ops-mcp` 一次 `npm install`，在 WorkBuddy 的 `mcp.json` 里挂 stdio 进程，环境变量指向现网 `OPS_PUBLIC_URL=https://opc.ai-dddd.top`，再塞 access / refresh / client 凭证。配置示例与 FAQ 都在公开页，这里不复读占位符——**真实 `client_secret` / token 只放本机，别进仓库、别进聊天截图**。
 
+当前已支持 stdio + OAuth Bearer；WorkBuddy 原生弹窗授权需远程 MCP（HTTP + DCR/PKCE），进行中。
+
 ## 关键链路：Bearer → 租户上下文 → 工具分发
 
 ```
