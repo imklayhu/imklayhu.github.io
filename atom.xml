@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, Klay-Clam</rights>
   <subtitle>Tony's Notebook</subtitle>
   <title>拖泥脑湿的博客</title>
-  <updated>2026-10-14T08:56:54.148Z</updated>
+  <updated>2026-10-14T09:39:19.017Z</updated>
   <entry>
     <author>
       <name>Klay-Clam</name>
@@ -18,11 +18,11 @@
     <category term="逼逼叨叨" scheme="https://zone.ai-dddd.top/categories/%E9%80%BC%E9%80%BC%E5%8F%A8%E5%8F%A8/"/>
     <category term="独阵" scheme="https://zone.ai-dddd.top/tags/%E7%8B%AC%E9%98%B5/"/>
     <category term="OPC" scheme="https://zone.ai-dddd.top/tags/OPC/"/>
+    <category term="自媒体" scheme="https://zone.ai-dddd.top/tags/%E8%87%AA%E5%AA%92%E4%BD%93/"/>
+    <category term="一人公司" scheme="https://zone.ai-dddd.top/tags/%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8/"/>
     <category term="MCP" scheme="https://zone.ai-dddd.top/tags/MCP/"/>
     <category term="WorkBuddy" scheme="https://zone.ai-dddd.top/tags/WorkBuddy/"/>
     <category term="OAuth" scheme="https://zone.ai-dddd.top/tags/OAuth/"/>
-    <category term="自媒体" scheme="https://zone.ai-dddd.top/tags/%E8%87%AA%E5%AA%92%E4%BD%93/"/>
-    <category term="一人公司" scheme="https://zone.ai-dddd.top/tags/%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8/"/>
     <id>https://zone.ai-dddd.top/2026/10/14/2026-10-14-duzhen-workbuddy-mcp/</id>
     <link href="https://zone.ai-dddd.top/2026/10/14/2026-10-14-duzhen-workbuddy-mcp/"/>
     <published>2026-10-14T17:00:00.000Z</published>
@@ -30,7 +30,7 @@
       <![CDATA[<p>上一篇写完独阵的「方案→草稿→人审」流水线之后（<a]]>
     </summary>
     <title>独阵接上 WorkBuddy MCP：在对话里管账号矩阵，但绝不替你自动发</title>
-    <updated>2026-10-14T08:56:54.148Z</updated>
+    <updated>2026-10-14T09:39:19.017Z</updated>
   </entry>
   <entry>
     <author>
@@ -39,10 +39,10 @@
     <category term="逼逼叨叨" scheme="https://zone.ai-dddd.top/categories/%E9%80%BC%E9%80%BC%E5%8F%A8%E5%8F%A8/"/>
     <category term="独阵" scheme="https://zone.ai-dddd.top/tags/%E7%8B%AC%E9%98%B5/"/>
     <category term="OPC" scheme="https://zone.ai-dddd.top/tags/OPC/"/>
-    <category term="自媒体" scheme="https://zone.ai-dddd.top/tags/%E8%87%AA%E5%AA%92%E4%BD%93/"/>
-    <category term="一人公司" scheme="https://zone.ai-dddd.top/tags/%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8/"/>
     <category term="Next.js" scheme="https://zone.ai-dddd.top/tags/Next-js/"/>
     <category term="LangGraph" scheme="https://zone.ai-dddd.top/tags/LangGraph/"/>
+    <category term="自媒体" scheme="https://zone.ai-dddd.top/tags/%E8%87%AA%E5%AA%92%E4%BD%93/"/>
+    <category term="一人公司" scheme="https://zone.ai-dddd.top/tags/%E4%B8%80%E4%BA%BA%E5%85%AC%E5%8F%B8/"/>
     <id>https://zone.ai-dddd.top/2026/10/13/2026-10-13-self-media-ops/</id>
     <link href="https://zone.ai-dddd.top/2026/10/13/2026-10-13-self-media-ops/"/>
     <published>2026-10-13T15:30:00.000Z</published>
