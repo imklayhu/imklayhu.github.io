@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>Lead Radar：给健身私教做的小红书线索雷达，我是怎么把它从「能跑」做到「能交」的 · 拖泥脑湿的博客</title><meta name="description" content="先说清楚：这不是一篇「我们用 AI 颠覆获客」的 PPT 文案，是一篇「我把刷评论这件事，拆成一串 n8n 工作流」的施工笔记。官网在这儿：Lead Radar 落地页，源码仓库是 imklayhu/lead-radar（没有 README 大饼，全是 workflows/、scripts/、doc"><meta name="og:description" content="先说清楚：这不是一篇「我们用 AI 颠覆获客」的 PPT 文案，是一篇「我把刷评论这件事，拆成一串 n8n 工作流」的施工笔记。官网在这儿：Lead Radar 落地页，源码仓库是 imklayhu/lead-radar（没有 README 大饼，全是 workflows/、scripts/、doc"><meta name="twitter:site" content="拖泥脑湿的博客"><meta name="twitter:title" content="Lead Radar：给健身私教做的小红书线索雷达，我是怎么把它从「能跑」做到「能交」的"><meta name="twitter:card" content="summary"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Klay's Notebook</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">阿胡的的流水账</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/categories">分类</a></li><li><a href="/tags">标签</a></li><li><a href="/friends/index.html">友链</a></li><li class="soc"><a href="https://zone.ai-dddd.top/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>Lead Radar：给健身私教做的小红书线索雷达，我是怎么把它从「能跑」做到「能交」的</a></p><p class="post-meta"><span class="date meta-item">发布于&nbsp;2026-10-13</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/逼逼叨叨/" title="逼逼叨叨">逼逼叨叨</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/Lead-Radar/" title="Lead Radar">Lead Radar</a><span>&nbsp;</span><a class="a-tag" href="/tags/n8n/" title="n8n">n8n</a><span>&nbsp;</span><a class="a-tag" href="/tags/小红书/" title="小红书">小红书</a><span>&nbsp;</span><a class="a-tag" href="/tags/飞书/" title="飞书">飞书</a><span>&nbsp;</span><a class="a-tag" href="/tags/产品/" title="产品">产品</a><span>&nbsp;</span></span></p><p class="post-abstract"><p>先说清楚：这不是一篇「我们用 AI 颠覆获客」的 PPT 文案，是一篇「我把刷评论这件事，拆成一串 n8n 工作流」的施工笔记。官网在这儿：<a target="_blank" rel="noopener" href="https://imklayhu.github.io/lead-radar-website/">Lead Radar 落地页</a>，源码仓库是 <a target="_blank" rel="noopener" href="https://github.com/imklayhu/lead-radar"><code>imklayhu/lead-radar</code></a>（没有 README 大饼，全是 <code>workflows/</code>、<code>scripts/</code>、<code>docs/</code>，干就完了）。</p>
+<p>同类的小玩意儿还有 <a target="_blank" rel="noopener" href="https://fatti.ai-dddd.top/">FatTI</a>、<a target="_blank" rel="noopener" href="https://devease.ai-dddd.top/">DevEase</a>、<a target="_blank" rel="noopener" href="https://xunji.ai-dddd.top/">训记</a>——都是「自己先用、再考虑别人能不能用」那挂的。这篇只深挖 Lead Radar。</p>
+<h2><span id="背景动机私教获客本质是体力活">背景动机：私教获客，本质是体力活</span></h2><p>故事起因很朴素。假设你是健身自由教练，想在小红书找「想练、想请私教」的人。日常操作大概是：</p>
+<ol>
+<li>搜关键词；</li>
+<li>点进帖子；</li>
+<li>翻评论；</li>
+<li>凭感觉判断这人有没有意向；</li>
+<li>再琢磨第一句私信怎么写。</li>
+</ol>
+<p>能做，但很累。而且「意向」这件事，人眼刷久了也会钝——明明是「求推荐靠谱教练」，你可能当成普通闲聊滑过去了。</p>
+<p>所以最初的问题其实就一句话（仓库里 <code>refs.md</code> 原话大意）：<strong>用自动化从抖音&#x2F;小红书评论里识别销售线索，入库，生成首次触达文案，由人工决定要不要发。</strong></p>
+<p>注意最后半句：人审核。不是全自动骚扰机。这个边界从 Day 1 就钉死了。</p>
+<p>抖音后来砍了（TikHub 权限与稳定性问题，<code>03</code>&#x2F;<code>04</code> 工作流现在只是废弃占位）。当前版本主战场是<strong>小红书</strong>，场景 Prompt 也先锁在<strong>健身私教</strong>。</p>
+<h2><span id="做了什么一句话发起六步漏斗交出去">做了什么：一句话发起，六步漏斗交出去</span></h2><p>产品侧一句话：<strong>在飞书群里 @Lead Radar，用自然语言发起采集；系统跑完关键词搜索 → 帖子路由 → 评论抓取 → AI 打分 → 人工审核，交付可跟进线索。</strong></p>
+<p>落地页把漏斗写成六步，和仓库实现是对齐的：</p>
+<ol>
+<li><strong>关键词搜索</strong>：TikHub 搜小红书笔记；</li>
+<li><strong>帖子路由</strong>：LLM 先筛一遍值得下钻的帖（跳过无意义互动帖）；</li>
+<li><strong>评论抓取</strong>：对高「评论产出分」的帖批量拉评论（含内嵌子评论，能薅就薅）；</li>
+<li><strong>AI 打分</strong>：按画像与购买意图打分，满分 100，<strong>≥70</strong> 算合格线索；</li>
+<li><strong>人工审核</strong>：飞书卡片点通过&#x2F;拒绝；</li>
+<li><strong>有效线索</strong>：人审过的才算「能跟进」的交付物。</li>
+</ol>
+<p>用户体验尽量「像聊天」：</p>
+<ul>
+<li>群里说：<code>@Lead Radar 帮我找徐家汇附近想请私教的人，少抓一点先看看</code></li>
+<li>机器人回确认卡（关键词、城市、上限参数、预计请求规模）</li>
+<li><strong>只有原请求者</strong>点「开始采集」才进队列</li>
+<li>采数结束先发「采数完成」摘要；评分和人审是后面异步 worker 干的</li>
+</ul>
+<p>加微信当天能跑第一次采集——这是落地页的承诺，也是我自己验收时卡的口径。</p>
+<p>定价按「任务数 &#x2F; 月」（一次任务 &#x3D; 一轮完整关键词采集），公开档位是体验版 ¥0、基础版 ¥99、专业版 ¥299、团队版 ¥799。体验版每月 3 次、单城市；取消&#x2F;过期任务不占配额。这些都写在落地页和 <code>pricing-and-metering</code> 设计里，不在这儿编故事。</p>
+<h2><span id="关键链路-x2f-技术点n8n-当总线别的各干各的">关键链路 &#x2F; 技术点：n8n 当总线，别的各干各的</span></h2><h3><span id="总览">总览</span></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">飞书群 @bot</span><br><span class="line">  → feishu-callback-bridge（长连接）</span><br><span class="line">  → WF07 解析自然语言 + 配额门控 + 确认卡</span><br><span class="line">  → WF08 点「开始」→ queued</span><br><span class="line">  → WF09 队列工人 CAS 抢任务</span><br><span class="line">  → WF00：01 搜索笔记 → 02 拉评论（采数短跑，status=harvested）</span><br><span class="line">  → 并行 Schedule：</span><br><span class="line">       05b 评论打分 → leads(pending_group)</span><br><span class="line">       06 聚合发卡 → 人审</span><br><span class="line">       10 慢同步到租户飞书 Base</span><br></pre></td></tr></table></figure>
+
+<h3><span id="技术选型为什么这么拧">技术选型（为什么这么拧）</span></h3><table>
+<thead>
+<tr>
+<th>层</th>
+<th>选型</th>
+<th>一句话理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>编排</td>
+<td>本机 Docker <strong>n8n</strong></td>
+<td>自托管、Webhook、Data Tables、Execute Workflow 全家桶够用</td>
+</tr>
+<tr>
+<td>采集</td>
+<td><strong>TikHub</strong>（小红书 App V2）</td>
+<td>付费授权 API，比自己上 Puppeteer 稳；抖音权限不够就先不做</td>
+</tr>
+<tr>
+<td>AI</td>
+<td>阿里云 DashScope OpenAI 兼容（默认 <code>deepseek-v3</code> &#x2F; 管线文档里也切过 <code>deepseek-v4-pro</code>）</td>
+<td>Prompt 在 <code>prompts/</code>，挂了有启发式 fallback</td>
+</tr>
+<tr>
+<td>交互</td>
+<td>飞书机器人 + 交互卡片</td>
+<td>教练本来就在飞书里，审核不用再开一个后台</td>
+</tr>
+<tr>
+<td>存储</td>
+<td><strong>n8n Data Tables 真源</strong> + 飞书多维表慢同步镜像</td>
+<td>热路径别跟飞书 API 缠死；运营看中文表就行</td>
+</tr>
+</tbody></table>
+<p><code>docker-compose</code> 里两件套：<code>n8n</code> + <code>feishu-callback-bridge</code>。飞书长连接<strong>每个应用只能挂一个客户端</strong>，所以 bridge 单独成服务，专门转发 mention &#x2F; 卡片回调到 n8n webhook。</p>
+<h3><span id="几个我觉得值钱的设计">几个我觉得「值钱」的设计</span></h3><p><strong>1. 采数和分析拆开（ingest-first）</strong></p>
+<p>早期 WF09 一把梭：<code>01→02→05b→06</code>，执行时间又长又容易 timeout。后来改成：</p>
+<ul>
+<li>09&#x2F;00 只负责搜帖 + 拉评论，成功就 <code>harvested</code>，释放同群采数锁；</li>
+<li>05b Schedule（约 1 分钟）扫 <code>score_status=pending</code> 批打分；</li>
+<li>06 Schedule（约 2 分钟）flush 待审卡。</li>
+</ul>
+<p>好处很实在：采数失败可重试采数；分析挂了不必重抓 TikHub（钱啊）。同群任务 A <code>harvested</code> 后，B 可以接着跑。</p>
+<p><strong>2. Data Tables 是真源，飞书是交付镜像</strong></p>
+<p>热路径（01&#x2F;02&#x2F;05b&#x2F;06&#x2F;07&#x2F;08&#x2F;09&#x2F;00&#x2F;11）只读写 DT：<code>leads</code> &#x2F; <code>notes</code> &#x2F; <code>comments</code> &#x2F; <code>note_task_links</code> &#x2F; <code>collection_tasks</code> &#x2F; <code>tenants</code> &#x2F; <code>coach_profiles</code>。<br>WF10 按 <code>tenant_id</code> 慢同步到<strong>每个租户自己的飞书 Base</strong>（模板复制），教练只读 view。飞书表不做手改回写——否则双写地狱，我已经踩过一脚（旧英文 Bitable 切流时还专门要求停掉会双写的遗留 05）。</p>
+<p><strong>3. 自然语言采集 ≠ 让 LLM 随便飞</strong></p>
+<p>WF07 会把自然语言 clamp 成受控配置：<code>keywords[]</code>、城市&#x2F;区域、各种 max 上限。同义词用 <code>/</code>、顿号拆开，最多 <code>COLLECTION_MAX_KEYWORDS</code>（默认 5），每个词各自 <code>search_notes</code>，再按 <code>note_id</code> 去重。确认卡展示<strong>全部关键词</strong>，不是偷偷压成一个。</p>
+<p>区域闸门：关键词得带城市&#x2F;区域信号；体验版&#x2F;基础版还有<strong>服务城市数</strong>限制（城市级归一化，<code>上海 徐汇</code> 算 1 城）。</p>
+<p><strong>4. 多租户：群即租户</strong></p>
+<p>客服建群 → 拉机器人 + 教练 → <code>@Lead Radar 初始化当前租户</code>（WF14）：按群名前缀解析档位、复制交付 Base、教练只读协作者。套餐变更走 WF13（仅客服），先改群名再落库，避免半更新。</p>
+<p><strong>5. 人审卡片：快 ACK + 异步改卡</strong></p>
+<p>飞书卡片回调最好 3 秒内返回。早期把写表绑在回调响应里，结果 Toast 成功、按钮还在——经典「看起来成功其实没改干净」。后来拆成：先 Toast，再异步更新 DT + 主动改消息卡片为已处理态，并用 <code>record_id + decision</code> 做幂等。</p>
+<p><strong>6. 成本意识写进漏斗</strong></p>
+<p>TikHub 按次计费，所以：</p>
+<ul>
+<li>搜索结果尽量吃满再路由，而不是只取前 1–2 条；</li>
+<li><code>coach_supply</code> 且评论数过低的帖直接跳过拉评；</li>
+<li>评分有 <code>COLLECTION_MAX_LLM_CALLS</code>、新鲜度衰减、过期评论硬跳过；</li>
+<li>创建任务前按月配额门控（任务数 + LLM 调用），超限不建记录。</li>
+</ul>
+<p>设计文档里有一套成本模型（边际&#x2F;全成本），用来支撑档位定价——那是规格真源，不是营销稿里的「AI 降本 99%」。</p>
+<h2><span id="踩坑与取舍吐槽时间">踩坑与取舍（吐槽时间）</span></h2><p><strong>取舍一：不做自动私信。</strong><br>技术上不是不能接，但合规和产品边界都说「人工审核后才触达」。线索质量再好，批量骚扰也是把自己送进平台黑名单的最快路径。触达文案可以生成（<code>prompts/outreach-copy-fitness.md</code>），发不发教练说了算。</p>
+<p><strong>取舍二：抖音先放弃。</strong><br>仓库里还留着 <code>03</code>&#x2F;<code>04</code>，但明确废弃。没有权限的 API 调用，不如诚实不做。</p>
+<p><strong>取舍三：真源从飞书迁到 Data Tables。</strong><br>飞书 Bitable 当运营看板很香，当高并发热路径存储就……嗯，慢同步 + 模板复制多租户，比「一切都写飞书」清醒多了。迁移脚本、对账、切流停写旧表，这一套比写业务节点还磨人。</p>
+<p><strong>取舍四：配额校验 fail-open。</strong><br>查配额失败时放行，优先保内测可用性。严格计费上线前，这是有意识的「先能用、后算准」。</p>
+<p><strong>踩坑：飞书权限宇宙。</strong><br><code>@机器人</code> 收不到消息？多半是缺 <code>im.message.receive_v1</code> 或没配 <code>FEISHU_BOT_OPEN_ID</code>。改群名？机器人还得是群主&#x2F;管理员，或者群允许改名。长连接不能多开。每一个都是「日志里只有 ws client ready，群里一潭死水」级别的玄学，桥接服务的单测和 <code>check-feishu-message-scopes.sh</code> 是血泪换的。</p>
+<p><strong>踩坑：单体工作流太长。</strong><br>n8n runner timeout、执行超时、同群互斥锁捂太久——全是「看起来能跑、 concurrent 一上就翻车」。拆成 harvest &#x2F; score &#x2F; flush 三班倒之后，心情都好了。</p>
+<p><strong>踩坑：AI 会误判，所以 ≥70 还要人审。</strong><br>落地页写得很直白：合格线索 ≠ 有效线索。有效 &#x3D; AI 过线 + 人过目。我宁可少交几条，也不想教练的时间浪费在假意向上。</p>
+<h2><span id="小结">小结</span></h2><p>Lead Radar 对我来说，不是「又一个 AI Agent Demo」，而是一条可交付的获客流水线：</p>
+<ul>
+<li>入口足够懒（飞书一句话）；</li>
+<li>中间足够抠（付费 API、LLM 预算、去重、配额）；</li>
+<li>出口足够稳（人审 + 按租户隔离的线索清单）。</li>
+</ul>
+<p>它现在已经能给真实私教跑采集；官网、定价、FAQ 都在 <a target="_blank" rel="noopener" href="https://imklayhu.github.io/lead-radar-website/">lead-radar-website</a>。感兴趣就按页上的微信号加我，备注「Lead Radar」——别指望我在博客评论区贴一堆密钥和内网 IP。</p>
+<p>接下来如果还写，大概会是：多租户交付踩坑合集，或者「为什么我把 SoT 从飞书扳到 Data Tables」。这篇先到这儿。</p>
+<p>peace✌️</p>
+</p></div><div class="share"><span>分享到</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=https://zone.ai-dddd.top/2026/10/13/2026-10-13-lead-radar/%20拖泥脑湿的博客%20Lead Radar：给健身私教做的小红书线索雷达，我是怎么把它从「能跑」做到「能交」的"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2026/10/13/2026-10-13-self-media-ops/" title="独阵：给一人公司的账号矩阵工作台，我是怎么把「写到发布前」做成可审流水线的"><i class="fa fa-angle-double-left"></i>&nbsp;上一篇: 独阵：给一人公司的账号矩阵工作台，我是怎么把「写到发布前」做成可审流水线的</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2020/01/03/2020-01-03-codewars-2/" title="CodeWars 学习记录（二）">下一篇: CodeWars 学习记录（二）&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>

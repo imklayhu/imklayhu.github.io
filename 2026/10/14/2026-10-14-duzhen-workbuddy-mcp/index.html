@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author"><title>独阵接上 WorkBuddy MCP：在对话里管账号矩阵，但绝不替你自动发 · 拖泥脑湿的博客</title><meta name="description" content="上一篇写完独阵的「方案→草稿→人审」流水线之后（施工笔记在这儿），还缺一块：人已经在对话里干活了，为什么还要切回网页点按钮？
+今天合进主线的就是这块：WorkBuddy MCP——把独阵接进 WorkBuddy 自定义 MCP，读写分工具，权限绑本人；草稿、方案、封面都能在对话里动，发布仍在各平台后"><meta name="og:description" content="上一篇写完独阵的「方案→草稿→人审」流水线之后（施工笔记在这儿），还缺一块：人已经在对话里干活了，为什么还要切回网页点按钮？
+今天合进主线的就是这块：WorkBuddy MCP——把独阵接进 WorkBuddy 自定义 MCP，读写分工具，权限绑本人；草稿、方案、封面都能在对话里动，发布仍在各平台后"><meta name="twitter:site" content="拖泥脑湿的博客"><meta name="twitter:title" content="独阵接上 WorkBuddy MCP：在对话里管账号矩阵，但绝不替你自动发"><meta name="twitter:card" content="summary"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 8.1.1"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div class="container" id="stage"><div class="row"><div class="col-sm-3 col-xs-12 side-container invisible" id="side-bar"><div class="vertical-text site-title"><h3 class="site-title-small" tabindex="-1"><a class="a-title" href="/">Klay's Notebook</a></h3><h1 class="site-title-large" tabindex="-1"><a class="a-title" href="/">阿胡的的流水账</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div class="site-title-links" id="site-nav"><ul><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li><a href="/categories">分类</a></li><li><a href="/tags">标签</a></li><li><a href="/friends/index.html">友链</a></li><li class="soc"><a href="https://zone.ai-dddd.top/atom.xml" target="_blank" rel="noopener noreferrer" aria-label="RSS"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div class="col-sm-9 col-xs-12 main-container invisible" id="main-container"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>独阵接上 WorkBuddy MCP：在对话里管账号矩阵，但绝不替你自动发</a></p><p class="post-meta"><span class="date meta-item">发布于&nbsp;2026-10-14</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a class="a-tag" href="/categories/逼逼叨叨/" title="逼逼叨叨">逼逼叨叨</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a class="a-tag" href="/tags/独阵/" title="独阵">独阵</a><span>&nbsp;</span><a class="a-tag" href="/tags/OPC/" title="OPC">OPC</a><span>&nbsp;</span><a class="a-tag" href="/tags/MCP/" title="MCP">MCP</a><span>&nbsp;</span><a class="a-tag" href="/tags/WorkBuddy/" title="WorkBuddy">WorkBuddy</a><span>&nbsp;</span><a class="a-tag" href="/tags/OAuth/" title="OAuth">OAuth</a><span>&nbsp;</span><a class="a-tag" href="/tags/自媒体/" title="自媒体">自媒体</a><span>&nbsp;</span><a class="a-tag" href="/tags/一人公司/" title="一人公司">一人公司</a><span>&nbsp;</span></span></p><p class="post-abstract"><p>上一篇写完独阵的「方案→草稿→人审」流水线之后（<a href="https://zone.ai-dddd.top/2026/10/13/self-media-ops/">施工笔记在这儿</a>），还缺一块：<strong>人已经在对话里干活了，为什么还要切回网页点按钮？</strong></p>
+<p>今天合进主线的就是这块：<strong>WorkBuddy MCP</strong>——把独阵接进 WorkBuddy 自定义 MCP，读写分工具，权限绑本人；草稿、方案、封面都能在对话里动，<strong>发布仍在各平台后台由你完成</strong>。产品站：<a target="_blank" rel="noopener" href="https://opc.ai-dddd.top/">opc.ai-dddd.top</a>；公开说明：<a target="_blank" rel="noopener" href="https://opc.ai-dddd.top/help/mcp">&#x2F;help&#x2F;mcp</a>。仓库仍是私有仓 <code>self-media-ops</code>，这篇讲边界和施工，不贴真实密钥。</p>
+<h2><span id="背景动机网页是真相源对话是操作面">背景动机：网页是真相源，对话是操作面</span></h2><p>独阵从 Day 1 就把状态钉在 Next + SQLite：账号、方案、内容库、日历、功能门控，全是网页工作台里的真相。工作台够用，但一人公司的真实节奏往往是：</p>
+<ol>
+<li>打开 WorkBuddy &#x2F; 对话助手，聊选题；</li>
+<li>再切到独阵网页生成方案；</li>
+<li>再切回去改稿；</li>
+<li>再回网页点封面、进日历。</li>
+</ol>
+<p>能跑，但上下文在两个窗口之间来回丢。MCP（Model Context Protocol）正好补这一刀：<strong>让对话客户端带着你的授权，调用独阵的工具</strong>——读你的账号与内容，写草稿与方案，触发生成——而不是另造一套「聊天版 CMS」。</p>
+<p>边界依然写死（和首页 FAQ、上一篇一致）：</p>
+<ul>
+<li><strong>不</strong>自动发布到小红书 &#x2F; 抖音 &#x2F; 视频号 &#x2F; 公众号 &#x2F; X；</li>
+<li><strong>不</strong>代管各平台账号密码；</li>
+<li><strong>不</strong>跨用户、不提权成管理员。</li>
+</ul>
+<p>人审 + 人工分发没变。变的是：操作面可以待在对话里。</p>
+<h2><span id="做了什么oauth-一期-41-个读写工具-公开说明">做了什么：OAuth 一期 + 41 个读写工具 + 公开说明</span></h2><p>这次不是一个 PR 糊完，是三刀连砍（已合 <code>main</code>）：</p>
+<table>
+<thead>
+<tr>
+<th>PR</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/imklayhu/self-media-ops/pull/88">#88</a></td>
+<td>WorkBuddy OAuth phase-1：授权页同意&#x2F;拒绝、换 token、刷新、撤销；设置页「已授权应用 → 解除授权」</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/imklayhu/self-media-ops/pull/89">#89</a></td>
+<td>MCP 连接器：<code>packages/ops-mcp</code> stdio + 服务端 <code>/api/mcp/tools</code>；<strong>41</strong> 个工具，描述一律带 <strong>【读】</strong> &#x2F; <strong>【写】</strong></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://github.com/imklayhu/self-media-ops/pull/90">#90</a></td>
+<td>公开中文说明页 <code>/help/mcp</code>（未登录可看），首页导航&#x2F;页脚挂「MCP 说明」</td>
+</tr>
+</tbody></table>
+<h3><span id="授权怎么走">授权怎么走</span></h3><ol>
+<li>浏览器打开 <code>https://opc.ai-dddd.top/oauth/authorize?...</code>（须已登录独阵）；</li>
+<li>同意页展示应用名、你的邮箱、本次 scopes——读与写分得清；</li>
+<li>同意后跳白名单 <code>redirect_uri</code>，带一次性 <code>code</code>；客户端用 <code>code</code> + <code>client_secret</code> 换 <code>access_token</code> &#x2F; <code>refresh_token</code>；</li>
+<li>随时可在 <strong>设置 → 已授权应用 → 解除授权</strong>；撤销后该 grant 下 token 立刻失效。</li>
+</ol>
+<p>未传 <code>scope</code> 时，默认只有核心只读：<code>accounts:read contents:read plans:read</code>。要写草稿、触发生成，必须在授权链接里<strong>显式</strong>带上对应 scope。未知 scope <strong>直接拒绝</strong>。</p>
+<p>Token 只绑定一个 <code>user_id</code>；<code>oauthTenantContext</code> 强制 <code>role: user</code>——OAuth 路径上<strong>抬不成管理员</strong>。</p>
+<h3><span id="工具一览41">工具一览（41）</span></h3><p><strong>读（22）</strong>：账号 &#x2F; 画像、内容库、方案、文章基座模板、封面基座、素材元数据、工作台与排期、用量与功能门控、平台枚举；以及受门控的流量主 &#x2F; 播客单集 &#x2F; 漫画流水线只读。</p>
+<p><strong>写（19）</strong>：创建&#x2F;更新账号与画像；<strong>仅草稿</strong>的创建&#x2F;更新；从方案 AI 生成内容（全部进草稿箱）；方案的创建&#x2F;更新与 AI 生成；模板与封面基座的元数据维护；封面叠字生成；受门控的流量主写入、创建漫画 run。</p>
+<p>写工具里刻意没有「改成已发布 &#x2F; 填 <code>published_at</code>」这类口子——草稿就是草稿。</p>
+<h3><span id="workbuddy-侧怎么配">WorkBuddy 侧怎么配</span></h3><p>本地 <code>packages/ops-mcp</code> 一次 <code>npm install</code>，在 WorkBuddy 的 <code>mcp.json</code> 里挂 stdio 进程，环境变量指向现网 <code>OPS_PUBLIC_URL=https://opc.ai-dddd.top</code>，再塞 access &#x2F; refresh &#x2F; client 凭证。配置示例与 FAQ 都在公开页，这里不复读占位符——<strong>真实 <code>client_secret</code> &#x2F; token 只放本机，别进仓库、别进聊天截图</strong>。</p>
+<p>当前已支持 stdio + OAuth Bearer；WorkBuddy 原生弹窗授权需远程 MCP（HTTP + DCR&#x2F;PKCE），进行中。</p>
+<h2><span id="关键链路bearer-租户上下文-工具分发">关键链路：Bearer → 租户上下文 → 工具分发</span></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">WorkBuddy</span><br><span class="line">   ↓ stdio MCP（packages/ops-mcp）</span><br><span class="line">POST /api/mcp/tools/:name   Authorization: Bearer &lt;access_token&gt;</span><br><span class="line">   ↓ resolveOAuthBearer → oauthTenantContext（role: user）</span><br><span class="line">scope 校验 → feature gates → 业务写库 / 触发既有生成路径</span><br></pre></td></tr></table></figure>
+
+<p>几点我觉得「值钱」：</p>
+<p><strong>1. 读写分工具，而不是一个万能 <code>run_sql</code>。</strong><br>工具名和描述前缀固定【读】&#x2F;【写】，方便客户端按意图选型；服务端再用 scope 硬拦。比「一个 chat 接口什么都能干」可审计得多。</p>
+<p><strong>2. Scope 与功能门控两层闸。</strong><br>就算 token 里带了 <code>podcast:read</code>，账号 <code>enabled_features</code> 没开播客，照样 403。试用默认 core-only（账号 &#x2F; 方案 &#x2F; 内容 &#x2F; 素材 &#x2F; 排期 &#x2F; 封面）的产品决策，从网页侧栏一路贯彻到 MCP。</p>
+<p><strong>3. 复用既有生成路径，不另起炉灶。</strong><br><code>generate_ops_plan</code> &#x2F; <code>generate_contents_from_plan</code> &#x2F; <code>generate_content_cover</code> 走的仍是网页那套 LangGraph &#x2F; 封面流水线，只是入口换成了 Bearer。状态真相还在 SQLite，对话只是另一个 client。</p>
+<p><strong>4. 公开说明页与 SEO 白名单对齐。</strong><br><code>/help/*</code> 本来就可匿名访问；这次把 MCP 说明补进 sitemap 和首页入口，避免「功能上了线、蜘蛛和试用用户都找不到」。</p>
+<h2><span id="踩坑与取舍">踩坑与取舍</span></h2><p><strong>取舍：先 OAuth，再 MCP。</strong><br>#88 只做授权落地页、token、撤销与设置解绑；#89 才挂工具。拆开的好处是鉴权模型可以单独测：登录必需、用户绑定、A↛B、撤销即失效——vitest 里先钉死，再放开 41 个入口。</p>
+<p><strong>取舍：默认同意只有核心只读。</strong><br>很多人会图省事把「全权限」设成默认。我故意反着来：忘写 scope &#x3D; 只能看。要动草稿、要触发生成，必须在授权链接里写明白。同意页上读&#x2F;写分开展示，减少「我只是想让助手帮我看一眼内容库」却一键给了写权限的事故。</p>
+<p><strong>取舍：二进制封面底图仍建议网页上传。</strong><br>MCP 管元数据与叠字生成；大文件上传继续走 Web。一期不做「对话里塞整张底图」——边界清楚，连接器也更瘦。</p>
+<p><strong>踩坑：Next 打包会扫到 <code>packages/**</code>。</strong><br>MCP 包放进 monorepo 后，tsconfig 若把 <code>packages/**</code> 吃进 Next 编译，构建会炸。合入前补了 exclude（#91）——这类「功能本身对、构建路径没跟上」的坑，比业务逻辑更烦人。</p>
+<p><strong>踩坑：未知 scope 必须拒绝，而不是静默忽略。</strong><br>客户端拼错一个 scope 字符串，若服务端当没看见，用户以为自己拿到了写权限，实际没有——排障地狱。拒绝 + 明确错误，比「兼容一下」更省后半夜。</p>
+<h2><span id="明确不做与下一步">明确不做与下一步</span></h2><p>和上一篇、试用页一致，MCP <strong>仍然不做</strong>：</p>
+<ul>
+<li>自动发布到任何社交平台；</li>
+<li>跨用户读写、管理员提权；</li>
+<li>把 <code>client_secret</code> 写进公开文档或页面回显；</li>
+<li>一期就把所有平台原生发布 API 接进来。</li>
+</ul>
+<p>下一步务实：邀请制用户里，谁真的会把 WorkBuddy 接到独阵上？读写比例怎样？哪些工具用了三次、哪些从未被点——这些数据比再堆十个工具有用。公开说明页已经挂着；想试的话，先按 <a target="_blank" rel="noopener" href="https://opc.ai-dddd.top/">opc.ai-dddd.top</a> 申请试用，再走 <a target="_blank" rel="noopener" href="https://opc.ai-dddd.top/help/mcp">&#x2F;help&#x2F;mcp</a>。</p>
+<h2><span id="小结">小结</span></h2><p>独阵这一刀，不是「又多了一个 AI 聊天入口」，而是把<strong>可审流水线的操作面</strong>接到对话客户端：</p>
+<ul>
+<li>授权绑本人，随时可撤；</li>
+<li>读写分工具，默认只读；</li>
+<li>功能门控从网页贯到 MCP；</li>
+<li>出口仍是草稿 + 人审 + 人工分发。</li>
+</ul>
+<p>网页还是真相源；对话变成第二块键盘。上一篇讲「为什么不做自动发布」，这篇讲「在不做自动发布的前提下，怎么让助手真的帮得上忙」。</p>
+<p>同类互推：<a target="_blank" rel="noopener" href="https://fatti.ai-dddd.top/">FatTI</a> &#x2F; <a target="_blank" rel="noopener" href="https://devease.ai-dddd.top/">DevEase</a> &#x2F; <a target="_blank" rel="noopener" href="https://xunji.ai-dddd.top/">训记</a> &#x2F; <a href="https://zone.ai-dddd.top/2026/10/13/lead-radar/">Lead Radar</a> &#x2F; <a href="https://zone.ai-dddd.top/2026/10/13/self-media-ops/">独阵上一篇</a>。</p>
+<p>peace✌️</p>
+</p></div><div class="share"><span>分享到</span>&nbsp;<span class="soc"><a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a></span><span class="soc"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></span><span class="soc"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=https://zone.ai-dddd.top/2026/10/14/2026-10-14-duzhen-workbuddy-mcp/%20拖泥脑湿的博客%20独阵接上 WorkBuddy MCP：在对话里管账号矩阵，但绝不替你自动发"></a></span></div><div class="pagination"><p class="clearfix"><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2026/10/13/2026-10-13-self-media-ops/" title="独阵：给一人公司的账号矩阵工作台，我是怎么把「写到发布前」做成可审流水线的">下一篇: 独阵：给一人公司的账号矩阵工作台，我是怎么把「写到发布前」做成可审流水线的&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2026&nbsp;<a target="_blank" href="https://zone.ai-dddd.top" rel="noopener noreferrer">Klay-Clam</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>
