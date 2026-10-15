@@ -26,8 +26,8 @@
 </tr>
 <tr>
 <td>运营 P1</td>
-<td>#112–#121</td>
-<td>冷启动基线、流量主好&#x2F;一般&#x2F;差、一键铺排、PFR&#x2F;成本看板、断更日历与周报、素材元数据写入、14+7 免费档、授权页钉死「只写草稿，不代发」、选题卡「你还有什么没讲」</td>
+<td>#112–#122</td>
+<td>冷启动基线、流量主好&#x2F;一般&#x2F;差、一键铺排、PFR&#x2F;成本看板、断更日历与周报、素材元数据写入、14+7 免费档、授权页钉死「只写草稿，不代发」、选题卡「你还有什么没讲」、备忘录粘贴导入草稿</td>
 </tr>
 </tbody></table>
 <h3><span id="授权怎么走推荐远程-http">授权怎么走（推荐：远程 HTTP）</span></h3><p>在客户端配好 <code>url</code> 与 <code>oauth</code>（WorkBuddy 示例见下）后重连，大致会：</p>
@@ -55,6 +55,7 @@
 <li><code>adopt_topic_suggestion</code>（<code>contents:write_draft</code>）：采纳一条，<strong>只建独阵草稿</strong>。未用素材会写入 <code>content_asset_refs</code>；可翻新旧稿是复制成标题「翻新：…」的新草稿，<strong>不调用模型、不重写正文</strong>。不会代发到小红书、抖音、视频号或公众号。</li>
 <li><code>dismiss_topic_suggestion</code>（<code>contents:write_draft</code>）：不感兴趣，只对当前用户 <strong>隐藏 7 天</strong>，不改稿、不发布。</li>
 </ul>
+<h3><span id="备忘录粘贴-多条草稿122">备忘录粘贴 → 多条草稿（#122）</span></h3><p><code>import_memo_drafts</code>（<code>contents:write_draft</code>）：把备忘录 &#x2F; 笔记里整段粘贴进来，按分隔拆成<strong>多条独阵草稿</strong>。只写草稿箱，<strong>不会代发</strong>到小红书、抖音、视频号或公众号。对话里可以说「把这段备忘录拆成草稿导入」。权威参数以部署后的 <a target="_blank" rel="noopener" href="https://opc.ai-dddd.top/help/mcp">&#x2F;help&#x2F;mcp</a> 为准。</p>
 <h2><span id="关键设计两层闸-复用既有路径">关键设计：两层闸 + 复用既有路径</span></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">MCP 客户端 (type: http + oauth)</span><br><span class="line">  → 探测 /api/mcp → DCR + PKCE 授权页（「只写草稿，不代发」）</span><br><span class="line">  → Bearer 调工具</span><br><span class="line">       ↓</span><br><span class="line">scope 校验 → feature gates → 试用写锁 → 业务写库 / 既有生成路径</span><br></pre></td></tr></table></figure>
 
 <ol>
@@ -73,7 +74,7 @@
 <h2><span id="小结">小结</span></h2><p>独阵这一刀，不是「又多了一个 AI 聊天入口」，而是把可审流水线接到远程 MCP 客户端：</p>
 <ul>
 <li>远程 HTTP + 弹窗 OAuth，多客户端可用，授权绑本人、随时可撤；</li>
-<li>冷启动基线、铺排、断更&#x2F;PFR、素材标签、流量主评判、**选题建议（未覆盖 &#x2F; 未用素材 &#x2F; 可翻新）**都能在对话里动；</li>
+<li>冷启动基线、铺排、断更&#x2F;PFR、素材标签、流量主评判、选题建议、<strong>备忘录导入草稿</strong>都能在对话里动；</li>
 <li>出口仍是<strong>草稿 + 人审 + 你自己去各平台发</strong>。</li>
 </ul>
 <p>网页还是真相源；对话变成第二块键盘。上一篇讲「为什么不做自动发布」，这篇讲「在不做自动发布的前提下，助手怎么真的帮得上忙——而且授权页就把代发边界钉死」。</p>
