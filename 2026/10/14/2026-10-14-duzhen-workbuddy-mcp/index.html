@@ -26,8 +26,8 @@
 </tr>
 <tr>
 <td>运营 P1</td>
-<td>#112–#120</td>
-<td>冷启动基线、流量主好&#x2F;一般&#x2F;差、一键铺排、PFR&#x2F;成本看板、断更日历与周报、素材元数据写入、14+7 免费档、授权页钉死「只写草稿，不代发」</td>
+<td>#112–#121</td>
+<td>冷启动基线、流量主好&#x2F;一般&#x2F;差、一键铺排、PFR&#x2F;成本看板、断更日历与周报、素材元数据写入、14+7 免费档、授权页钉死「只写草稿，不代发」、选题卡「你还有什么没讲」</td>
 </tr>
 </tbody></table>
 <h3><span id="授权怎么走推荐远程-http">授权怎么走（推荐：远程 HTTP）</span></h3><p>在客户端配好 <code>url</code> 与 <code>oauth</code>（WorkBuddy 示例见下）后重连，大致会：</p>
@@ -49,6 +49,12 @@
 <h3><span id="素材元数据118">素材元数据（#118）</span></h3><p><code>update_asset_metadata</code>（需 <code>assets:write</code>）：只改标签、备注、平台和用途，<strong>不改文件、不删文件、不把内容改成已发布</strong>。读侧有 <code>list_assets</code> &#x2F; <code>get_asset</code> &#x2F; <code>list_unused_assets</code>。</p>
 <h3><span id="免费档14-天试用-7-天只读宽限119">免费档：14 天试用 + 7 天只读宽限（#119）</span></h3><p>试用进行中可以写；到期后 7 天只读宽限，宽限结束后仍然只读。【写】和生成（含创建草稿、铺排、生成方案、更新素材标签）返回 403；【读】仍可用。站长和管理员不限期。当前没有在线付费。</p>
 <h3><span id="只写草稿不代发写进授权120">「只写草稿，不代发」写进授权（#120）</span></h3><p>授权同意页、帮助页、首页 FAQ 同一句对照：<strong>蚁小二 CLI 可以代发；独阵 MCP 不能。</strong> <code>create_content_draft</code> &#x2F; <code>update_content_draft</code> 拒绝 <code>published_at</code>、<code>scheduled_at</code>，以及「已发布」「已排期」「待发布」。站内点「确认已发布」也只是记账，不会代发。</p>
+<h3><span id="选题建议你还有什么没讲121">选题建议：「你还有什么没讲」（#121）</span></h3><p>内容库和方案详情共用一块 <strong>你还有什么没讲</strong>：角标分 <strong>未覆盖话题</strong>、<strong>未用素材</strong>、<strong>可翻新旧稿</strong>；某一源没有条目时不渲染空卡，和网页一致。</p>
+<ul>
+<li><code>list_topic_suggestions</code>（<code>contents:read</code>）：只读。可选 <code>plan_id</code>，带上才包含该方案的未覆盖话题；<strong>已引用的素材不会出现</strong>；7 天内点过「不感兴趣」的 key 也会藏起来。</li>
+<li><code>adopt_topic_suggestion</code>（<code>contents:write_draft</code>）：采纳一条，<strong>只建独阵草稿</strong>。未用素材会写入 <code>content_asset_refs</code>；可翻新旧稿是复制成标题「翻新：…」的新草稿，<strong>不调用模型、不重写正文</strong>。不会代发到小红书、抖音、视频号或公众号。</li>
+<li><code>dismiss_topic_suggestion</code>（<code>contents:write_draft</code>）：不感兴趣，只对当前用户 <strong>隐藏 7 天</strong>，不改稿、不发布。</li>
+</ul>
 <h2><span id="关键设计两层闸-复用既有路径">关键设计：两层闸 + 复用既有路径</span></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">MCP 客户端 (type: http + oauth)</span><br><span class="line">  → 探测 /api/mcp → DCR + PKCE 授权页（「只写草稿，不代发」）</span><br><span class="line">  → Bearer 调工具</span><br><span class="line">       ↓</span><br><span class="line">scope 校验 → feature gates → 试用写锁 → 业务写库 / 既有生成路径</span><br></pre></td></tr></table></figure>
 
 <ol>
@@ -67,7 +73,7 @@
 <h2><span id="小结">小结</span></h2><p>独阵这一刀，不是「又多了一个 AI 聊天入口」，而是把可审流水线接到远程 MCP 客户端：</p>
 <ul>
 <li>远程 HTTP + 弹窗 OAuth，多客户端可用，授权绑本人、随时可撤；</li>
-<li>冷启动基线、铺排、断更&#x2F;PFR、素材标签、流量主评判都能在对话里动；</li>
+<li>冷启动基线、铺排、断更&#x2F;PFR、素材标签、流量主评判、**选题建议（未覆盖 &#x2F; 未用素材 &#x2F; 可翻新）**都能在对话里动；</li>
 <li>出口仍是<strong>草稿 + 人审 + 你自己去各平台发</strong>。</li>
 </ul>
 <p>网页还是真相源；对话变成第二块键盘。上一篇讲「为什么不做自动发布」，这篇讲「在不做自动发布的前提下，助手怎么真的帮得上忙——而且授权页就把代发边界钉死」。</p>
